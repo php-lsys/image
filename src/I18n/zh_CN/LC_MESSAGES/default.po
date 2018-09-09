@@ -1,0 +1,3459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: db\n"
+"POT-Creation-Date: 2016-12-19 16:55+0800\n"
+"PO-Revision-Date: 2016-12-19 16:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/LSYS/Database.php:98
+msgid "Database type not defined in [:name on :driver] configuration"
+msgstr ""
+
+#: classes/LSYS/Database/Utils.php:60
+msgid "param records be array,but you not give"
+msgstr ""
+
+#~ msgid "edit"
+#~ msgstr "编辑"
+
+#~ msgid "Please select top navegate"
+#~ msgstr "请选择一级菜单或者设定为顶级菜单"
+
+#~ msgid "cat modify"
+#~ msgstr "类别编辑"
+
+#~ msgid "submit"
+#~ msgstr "提交"
+
+#~ msgid "id_cat"
+#~ msgstr "类别"
+
+#~ msgid "parent cat"
+#~ msgstr "顶级类别"
+
+#~ msgid "cat name"
+#~ msgstr "类别名称"
+
+#~ msgid "sort"
+#~ msgstr "排序"
+
+#~ msgid "active manager"
+#~ msgstr "活动管理"
+
+#~ msgid "title"
+#~ msgstr "标题"
+
+#~ msgid "add active"
+#~ msgstr "新增活动"
+
+#~ msgid "active cat"
+#~ msgstr "活动类别"
+
+#~ msgid "add cat"
+#~ msgstr "新增类别"
+
+#~ msgid "start time-end time"
+#~ msgstr "开始/结束时间"
+
+#~ msgid "address of gather"
+#~ msgstr "集合地点"
+
+#~ msgid "address of destination"
+#~ msgstr "目的地"
+
+#~ msgid "money"
+#~ msgstr "金额"
+
+#~ msgid "operation"
+#~ msgstr "操作"
+
+#~ msgid "edit and view"
+#~ msgstr "编辑/查看"
+
+#~ msgid "delete"
+#~ msgstr "删除"
+
+#~ msgid "pause"
+#~ msgstr "暂停"
+
+#~ msgid "restart"
+#~ msgstr "重启"
+
+#~ msgid "add activity"
+#~ msgstr "新增活动"
+
+#~ msgid "activity cat"
+#~ msgstr "活动类别"
+
+#~ msgid "deadline"
+#~ msgstr "报名截至时间"
+
+#~ msgid "status"
+#~ msgstr "状态"
+
+#~ msgid "apply count"
+#~ msgstr "申请总数"
+
+#~ msgid "joined count"
+#~ msgstr "参与总数"
+
+#~ msgid "please select the cat"
+#~ msgstr "请选择类别"
+
+#~ msgid "activity manage"
+#~ msgstr "活动管理"
+
+#~ msgid "request photo"
+#~ msgstr "活动必须添加活动海报!"
+
+#~ msgid "request content"
+#~ msgstr "活动详细内容不能为空!"
+
+#~ msgid "shop not null"
+#~ msgstr "商户模型未进行初始化"
+
+#~ msgid "successed"
+#~ msgstr "成功执行"
+
+#~ msgid "Please select top cat Or is top default"
+#~ msgstr "请选择上级商品类别或者设定为顶级类别"
+
+#~ msgid "add ads"
+#~ msgstr "添加广告"
+
+#~ msgid "url"
+#~ msgstr "链接"
+
+#~ msgid "add time"
+#~ msgstr "新增时间"
+
+#~ msgid "failed"
+#~ msgstr "失败执行"
+
+#~ msgid "please input the title."
+#~ msgstr "请输入标题"
+
+#~ msgid "ads position"
+#~ msgstr "广告位"
+
+#~ msgid "image"
+#~ msgstr "图片"
+
+#~ msgid "ads manager"
+#~ msgstr "广告管理"
+
+#~ msgid "ads list"
+#~ msgstr "广告列表"
+
+#~ msgid "argement error"
+#~ msgstr "参数错误"
+
+#~ msgid "success"
+#~ msgstr "成功执行"
+
+#~ msgid "article cat modify"
+#~ msgstr "编辑类别"
+
+#~ msgid "article manager"
+#~ msgstr "资讯管理"
+
+#~ msgid "add article"
+#~ msgstr "新增资讯"
+
+#~ msgid "article cat"
+#~ msgstr "资讯类别"
+
+#~ msgid "category"
+#~ msgstr "类别"
+
+#~ msgid "article not null"
+#~ msgstr "资讯模型初始化失败,不能为空."
+
+#~ msgid "link url"
+#~ msgstr "外部链接"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "page title"
+#~ msgstr "页面标题"
+
+#~ msgid "page title of seo"
+#~ msgstr "页面SEO标题"
+
+#~ msgid "page keyword"
+#~ msgstr "页面关键词"
+
+#~ msgid "page keyword of seo"
+#~ msgstr "页面SEO关键词"
+
+#~ msgid "page des"
+#~ msgstr "页面描述"
+
+#~ msgid "article brief"
+#~ msgstr "资讯内容"
+
+#~ msgid "article photos"
+#~ msgstr "资讯相册"
+
+#~ msgid "add article cat"
+#~ msgstr "新增资讯类别"
+
+#~ msgid "article"
+#~ msgstr "资讯"
+
+#~ msgid "Please select top article cat"
+#~ msgstr "请选择顶级资讯类别或者设定为顶级"
+
+#~ msgid "view"
+#~ msgstr "查看详情"
+
+#~ msgid "view order"
+#~ msgstr "查看订单"
+
+#~ msgid "view finance"
+#~ msgstr "查看财务"
+
+#~ msgid "finance"
+#~ msgstr "财务信息"
+
+#~ msgid "order sn"
+#~ msgstr "订单编号"
+
+#~ msgid "pay account"
+#~ msgstr "支付账户"
+
+#~ msgid "finance type"
+#~ msgstr "财务类型"
+
+#~ msgid "fee"
+#~ msgstr "手续费"
+
+#~ msgid "balance"
+#~ msgstr "余额"
+
+#~ msgid "time"
+#~ msgstr "时间"
+
+#~ msgid "login success"
+#~ msgstr "登陆成功"
+
+#~ msgid "user not exists"
+#~ msgstr "用户不存在"
+
+#~ msgid "account and password is not empty"
+#~ msgstr "账号或者密码不能为空"
+
+#~ msgid "quick navigation management"
+#~ msgstr "快速导航列表"
+
+#~ msgid "add Quick navegate"
+#~ msgstr "新增快速导航"
+
+#~ msgid "navigation list"
+#~ msgstr "菜单列表"
+
+#~ msgid "navigation management"
+#~ msgstr "菜单管理"
+
+#~ msgid "add Move navegate"
+#~ msgstr "新增菜单"
+
+#~ msgid "quick navigation"
+#~ msgstr "快速导航列表"
+
+#~ msgid "name"
+#~ msgstr "名称"
+
+#~ msgid "nav status"
+#~ msgstr "状态"
+
+#~ msgid "Select menu to perform"
+#~ msgstr "请选择平台"
+
+#~ msgid "navegate not null"
+#~ msgstr "菜单为空."
+
+#~ msgid "add navigation"
+#~ msgstr "新增菜单"
+
+#~ msgid "The parent navigation"
+#~ msgstr "上级菜单"
+
+#~ msgid "The name of the navigation"
+#~ msgstr "菜单名称"
+
+#~ msgid "Please enter the name of navigation"
+#~ msgstr "请输入菜单名称"
+
+#~ msgid "icon"
+#~ msgstr "标识"
+
+#~ msgid "Outside the chain of the url"
+#~ msgstr "外部链接"
+
+#~ msgid "Must take in front of the http://"
+#~ msgstr "链接必须以http://开头"
+
+#~ msgid "Menu State"
+#~ msgstr "菜单状态"
+
+#~ msgid "top navagete"
+#~ msgstr "上级菜单"
+
+#~ msgid "all order"
+#~ msgstr "全部订单"
+
+#~ msgid "base order"
+#~ msgstr "普通订单"
+
+#~ msgid "groupon order"
+#~ msgstr "团购订单"
+
+#~ msgid "ref order"
+#~ msgstr "退款订单"
+
+#~ msgid "pre order"
+#~ msgstr "预购订单"
+
+#~ msgid "seckill order"
+#~ msgstr "秒杀订单"
+
+#~ msgid "fight order"
+#~ msgstr "拼团订单"
+
+#~ msgid "order manager"
+#~ msgstr "订单管理"
+
+#~ msgid "order number"
+#~ msgstr "订单编号"
+
+#~ msgid "order type"
+#~ msgstr "订单类型"
+
+#~ msgid "shipping"
+#~ msgstr "物流"
+
+#~ msgid "total amount"
+#~ msgstr "总计费用"
+
+#~ msgid "pay type"
+#~ msgstr "支付类型"
+
+#~ msgid "order status"
+#~ msgstr "订单状态"
+
+#~ msgid "order time"
+#~ msgstr "下单时间"
+
+#~ msgid "no have shipping"
+#~ msgstr "不需要物流"
+
+#~ msgid "need shipping"
+#~ msgstr "需要物流"
+
+#~ msgid "shopcarts detail"
+#~ msgstr "购物车详情"
+
+#~ msgid "shopcarts list"
+#~ msgstr "购物车列表"
+
+#~ msgid "shopcarts manager"
+#~ msgstr "购物车管理"
+
+#~ msgid "nickname"
+#~ msgstr "昵称"
+
+#~ msgid "product num"
+#~ msgstr "商品数量"
+
+#~ msgid "product money"
+#~ msgstr "商品价格"
+
+#~ msgid "pay money"
+#~ msgstr "支付金额"
+
+#~ msgid "update time"
+#~ msgstr "更新时间"
+
+#~ msgid "Return of the goods"
+#~ msgstr "退货商品"
+
+#~ msgid "product name"
+#~ msgstr "商品名称"
+
+#~ msgid "refund num"
+#~ msgstr "退货数量"
+
+#~ msgid "refund money"
+#~ msgstr "退款"
+
+#~ msgid "refund time"
+#~ msgstr "返退日期"
+
+#~ msgid "refund status"
+#~ msgstr "返退状态"
+
+#~ msgid "shipping no."
+#~ msgstr "快递单号"
+
+#~ msgid "shipping all"
+#~ msgstr "全部发货完成(如果全部发货完成,请勾选此项)"
+
+#~ msgid "order print"
+#~ msgstr "订单打印"
+
+#~ msgid "send product"
+#~ msgstr "发货"
+
+#~ msgid "refund note"
+#~ msgstr "退货备注"
+
+#~ msgid "null order,can't create shipping"
+#~ msgstr "订单为空不能创建物流信息"
+
+#~ msgid "Please select a Courier company"
+#~ msgstr "请选择物流公司"
+
+#~ msgid "Please select the delivery goods"
+#~ msgstr "请选择物流商品"
+
+#~ msgid "Refund success"
+#~ msgstr "退款操作成功"
+
+#~ msgid "logistics manager"
+#~ msgstr "物流管理"
+
+#~ msgid "Add the Courier"
+#~ msgstr "新增物流"
+
+#~ msgid "logistics name"
+#~ msgstr "物流名称"
+
+#~ msgid "logistics status"
+#~ msgstr "物流状态"
+
+#~ msgid "argements is error"
+#~ msgstr "参数数据错误!"
+
+#~ msgid "shipping name or shipping price can't empty!"
+#~ msgstr "物流名称或者运费不能为空!"
+
+#~ msgid "shipping manager"
+#~ msgstr "物流管理"
+
+#~ msgid "area name"
+#~ msgstr "区域名称"
+
+#~ msgid "area"
+#~ msgstr "区域"
+
+#~ msgid "shipping price"
+#~ msgstr "运费"
+
+#~ msgid "shipping name"
+#~ msgstr "物流名称"
+
+#~ msgid "new shipping area"
+#~ msgstr "新增物流区域"
+
+#~ msgid "shipping area name"
+#~ msgstr "物流区域名称"
+
+#~ msgid "shipping area price"
+#~ msgstr "物流区域价格"
+
+#~ msgid "Courier can not find"
+#~ msgstr "查找物流失败"
+
+#~ msgid "Delete failed, please try again later"
+#~ msgstr "删除失败,请稍后再试试."
+
+#~ msgid "Operation is successful"
+#~ msgstr "操作成功!"
+
+#~ msgid "delete and reback"
+#~ msgstr "删除/恢复"
+
+#~ msgid "copy this"
+#~ msgstr "复制"
+
+#~ msgid "product manager"
+#~ msgstr "商品管理"
+
+#~ msgid "add product"
+#~ msgstr "新增商品"
+
+#~ msgid "product brand"
+#~ msgstr "商品品牌"
+
+#~ msgid "product cat"
+#~ msgstr "商品类别"
+
+#~ msgid "product attr tpl manager"
+#~ msgstr "属性管理"
+
+#~ msgid "product rule manager"
+#~ msgstr "商品规则管理"
+
+#~ msgid "price"
+#~ msgstr "商品价格"
+
+#~ msgid "store"
+#~ msgstr "商品库存"
+
+#~ msgid "groupon name and start end time are't empty"
+#~ msgstr "团购名称和开始结束时间不能为空."
+
+#~ msgid "product groupon"
+#~ msgstr "团购管理"
+
+#~ msgid "groupon edit"
+#~ msgstr "团购编辑"
+
+#~ msgid "save"
+#~ msgstr "保存"
+
+#~ msgid "groupon name"
+#~ msgstr "团购名称"
+
+#~ msgid "start and end time"
+#~ msgstr "开始-结束时间"
+
+#~ msgid "buy limit"
+#~ msgstr "购买限制"
+
+#~ msgid "storage"
+#~ msgstr "库存"
+
+#~ msgid "operation failed"
+#~ msgstr "操作失败!"
+
+#~ msgid "You do not have permission to do this"
+#~ msgstr "您没有权限使用当前操作."
+
+#~ msgid "operation success"
+#~ msgstr "操作成功!"
+
+#~ msgid "product seckill"
+#~ msgstr "秒杀管理"
+
+#~ msgid "product title"
+#~ msgstr "商品标题"
+
+#~ msgid "order/pay/user"
+#~ msgstr "已下单/已支付/用户数"
+
+#~ msgid "min groupon"
+#~ msgstr "最小成团"
+
+#~ msgid "argement is error!"
+#~ msgstr "参数错误"
+
+#~ msgid "fight name and start end time are't empty"
+#~ msgstr "拼团名称和开始结束时间不能为空!"
+
+#~ msgid "product fight"
+#~ msgstr "拼团"
+
+#~ msgid "fight edit"
+#~ msgstr "拼团编辑"
+
+#~ msgid "fight name"
+#~ msgstr "拼团名称"
+
+#~ msgid "order/pay/fail"
+#~ msgstr "已下单/已支付/下单失败"
+
+#~ msgid "min fight"
+#~ msgstr "最小拼团量"
+
+#~ msgid "ID and Pre name is empty!"
+#~ msgstr "ID和预购名称不能为空!"
+
+#~ msgid "product pre"
+#~ msgstr "商品预购"
+
+#~ msgid "pre edit"
+#~ msgstr "预购编辑"
+
+#~ msgid "pre is refund"
+#~ msgstr "预购退款"
+
+#~ msgid "pre start time"
+#~ msgstr "预购开始时间"
+
+#~ msgid "pre price"
+#~ msgstr "预购价格"
+
+#~ msgid "pre after start end time"
+#~ msgstr "预购尾款支付开始-结束时间"
+
+#~ msgid "after price"
+#~ msgstr "尾款"
+
+#~ msgid "pre shipping time"
+#~ msgstr "预购发货时间"
+
+#~ msgid "after pay time"
+#~ msgstr "尾款支付时间"
+
+#~ msgid "after pay status"
+#~ msgstr "尾款支付状态"
+
+#~ msgid "total"
+#~ msgstr "总计"
+
+#~ msgid "seckill name and start end time are't empty"
+#~ msgstr "秒杀名称和开始结束时间不能为空!"
+
+#~ msgid "seckill edit"
+#~ msgstr "秒杀编辑"
+
+#~ msgid "seckill price"
+#~ msgstr "秒杀价格"
+
+#~ msgid "product rule"
+#~ msgstr "商品规则"
+
+#~ msgid "fa_price"
+#~ msgstr "成本价"
+
+#~ msgid "ma_price"
+#~ msgstr "市场价"
+
+#~ msgid "sh_price"
+#~ msgstr "本店价"
+
+#~ msgid "Courier company"
+#~ msgstr "物流公司"
+
+#~ msgid "Courier area"
+#~ msgstr "物流区域"
+
+#~ msgid "add"
+#~ msgstr "新增"
+
+#~ msgid "product type"
+#~ msgstr "商品类型"
+
+#~ msgid "product photos"
+#~ msgstr "商品相册"
+
+#~ msgid "bar code"
+#~ msgstr "条码编号"
+
+#~ msgid "please input the bar_code."
+#~ msgstr "请输入商品条码编号"
+
+#~ msgid "product brief"
+#~ msgstr "商品详情"
+
+#~ msgid "special shipping"
+#~ msgstr "特殊物流"
+
+#~ msgid "product group"
+#~ msgstr "商品分组"
+
+#~ msgid "attr tpl type"
+#~ msgstr "类别模板类型"
+
+#~ msgid "attr tpl name"
+#~ msgstr "类别模板名称"
+
+#~ msgid "attr tpl values"
+#~ msgstr "类别模板值"
+
+#~ msgid "product description"
+#~ msgstr "商品描述"
+
+#~ msgid "product package"
+#~ msgstr "商品包装"
+
+#~ msgid "Create new product group"
+#~ msgstr "重新创建新的商品分组"
+
+#~ msgid "As a new group"
+#~ msgstr "创建新的商品分组"
+
+#~ msgid "add product cat"
+#~ msgstr "新增商品类别"
+
+#~ msgid "product cat modify"
+#~ msgstr "商品类别编辑"
+
+#~ msgid "show image"
+#~ msgstr "展示图片"
+
+#~ msgid "add product brand"
+#~ msgstr "新增商品品牌"
+
+#~ msgid "brand name"
+#~ msgstr "品牌名称"
+
+#~ msgid "Please select top brand Or is top default"
+#~ msgstr "请选择品牌,不选则默认为顶级"
+
+#~ msgid "product brand modify"
+#~ msgstr "编辑商品品牌"
+
+#~ msgid "id_brand"
+#~ msgstr "品牌ID"
+
+#~ msgid "parent brand"
+#~ msgstr "上级品牌"
+
+#~ msgid "brand logo"
+#~ msgstr "品牌标识"
+
+#~ msgid "brand des"
+#~ msgstr "品牌描述"
+
+#~ msgid "add product rule"
+#~ msgstr "新增规则"
+
+#~ msgid "Rule does not exist"
+#~ msgstr "规则不存在"
+
+#~ msgid "You do not have permission to delete the current rule"
+#~ msgstr "您没有权限删除当前规则"
+
+#~ msgid "add rule"
+#~ msgstr "新增规则"
+
+#~ msgid "rule name"
+#~ msgstr "规则名称"
+
+#~ msgid "type"
+#~ msgstr "类型"
+
+#~ msgid "end time"
+#~ msgstr "结束时间"
+
+#~ msgid "rule use"
+#~ msgstr "引用数量"
+
+#~ msgid "add attr tpl"
+#~ msgstr "新增属性"
+
+#~ msgid "tpl name"
+#~ msgstr "属性名"
+
+#~ msgid "attr value"
+#~ msgstr "属性值"
+
+#~ msgid "attr type"
+#~ msgstr "属性类型"
+
+#~ msgid "product attr tpl modify"
+#~ msgstr "属性编辑"
+
+#~ msgid "edit proxy"
+#~ msgstr "渠道信息编辑"
+
+#~ msgid "proxy level"
+#~ msgstr "渠道等级"
+
+#~ msgid "proxy ratio"
+#~ msgstr "佣金比率"
+
+#~ msgid "shop name"
+#~ msgstr "商户名称"
+
+#~ msgid "order count"
+#~ msgstr "订单总量"
+
+#~ msgid "pay count"
+#~ msgstr "支付总量"
+
+#~ msgid "sale count"
+#~ msgstr "销售总量"
+
+#~ msgid "proxy time"
+#~ msgstr "渠道代理时间"
+
+#~ msgid "proxy check"
+#~ msgstr "渠道申请审核"
+
+#~ msgid "proxy shop"
+#~ msgstr "本店渠道商"
+
+#~ msgid "proxy me"
+#~ msgstr "自有渠道商品"
+
+#~ msgid "proxy price"
+#~ msgstr "渠道价格"
+
+#~ msgid "product price"
+#~ msgstr "商品原价"
+
+#~ msgid "proxy product"
+#~ msgstr "代理平台商品"
+
+#~ msgid "proxy setting"
+#~ msgstr "渠道等级配置"
+
+#~ msgid "shop proxy current proxy level not existed"
+#~ msgstr "当前商品商户不存在改等级渠道配置信息"
+
+#~ msgid "Your Apply is submit,Please Waitting.."
+#~ msgstr "您的申请已经提交,请耐心等候"
+
+#~ msgid "level"
+#~ msgstr "等级"
+
+#~ msgid "proxy commission"
+#~ msgstr "渠道佣金"
+
+#~ msgid "shop price"
+#~ msgstr "本店价"
+
+#~ msgid "sale money"
+#~ msgstr "销售总额"
+
+#~ msgid "request level"
+#~ msgstr "申请级别"
+
+#~ msgid "request time"
+#~ msgstr "申请提交时间"
+
+#~ msgid "proxy name"
+#~ msgstr "渠道名称"
+
+#~ msgid "level money"
+#~ msgstr "升级金额"
+
+#~ msgid "level auto"
+#~ msgstr "是否自动升级"
+
+#~ msgid "no auto level"
+#~ msgstr "不自动升级"
+
+#~ msgid "auto level"
+#~ msgstr "自动升级"
+
+#~ msgid "distribution product"
+#~ msgstr "分销商品"
+
+#~ msgid "distribution receivables"
+#~ msgstr "佣金记录"
+
+#~ msgid "market price"
+#~ msgstr "市场价"
+
+#~ msgid "operation is success"
+#~ msgstr "操作成功"
+
+#~ msgid "operation is failed"
+#~ msgstr "操作失败"
+
+#~ msgid "operation is success!"
+#~ msgstr "操作成功!"
+
+#~ msgid "operation is failed!"
+#~ msgstr "操作失败！"
+
+#~ msgid "Account has been registered"
+#~ msgstr "该账号已被注册"
+
+#~ msgid "The two input password is different"
+#~ msgstr "两次密码输入不一致"
+
+#~ msgid "add shop user failed!"
+#~ msgstr "关联商户用户失败."
+
+#~ msgid "add user rose failed!"
+#~ msgstr "新增用户角色失败"
+
+#~ msgid "Account is empty!"
+#~ msgstr "账号为空!"
+
+#~ msgid "user manager"
+#~ msgstr "用户管理"
+
+#~ msgid "headimg"
+#~ msgstr "头像"
+
+#~ msgid "commission"
+#~ msgstr "返佣"
+
+#~ msgid "integration"
+#~ msgstr "积分"
+
+#~ msgid "telphone"
+#~ msgstr "电话"
+
+#~ msgid "relation time"
+#~ msgstr "关联时间"
+
+#~ msgid "wechat manager"
+#~ msgstr "微信管理"
+
+#~ msgid "add wechat navegate"
+#~ msgstr "新增菜单"
+
+#~ msgid "update menu to WeChat"
+#~ msgstr "同步菜单"
+
+#~ msgid "Please select material"
+#~ msgstr "请选择物流"
+
+#~ msgid "Save success"
+#~ msgstr "保存成功"
+
+#~ msgid "attention to reply"
+#~ msgstr "关注回复"
+
+#~ msgid "Add material"
+#~ msgstr "新增素材"
+
+#~ msgid "reply type"
+#~ msgstr "回复类型"
+
+#~ msgid "resource type"
+#~ msgstr "资源类型"
+
+#~ msgid "Parameter is not correct"
+#~ msgstr "参数错误"
+
+#~ msgid "Delete the success"
+#~ msgstr "删除执行成功"
+
+#~ msgid "Delete the failed"
+#~ msgstr "删除执行失败"
+
+#~ msgid "Keywords and material can't be empty"
+#~ msgstr "关键词和内容不能为空"
+
+#~ msgid "Keywords operation"
+#~ msgstr "关键词操作"
+
+#~ msgid "Please input the keyword"
+#~ msgstr "请输入关键词"
+
+#~ msgid "Keywords management response"
+#~ msgstr "关键词管理"
+
+#~ msgid "New keywords"
+#~ msgstr "新关键词"
+
+#~ msgid "keyword"
+#~ msgstr "关键词"
+
+#~ msgid "Material type"
+#~ msgstr "素材类型"
+
+#~ msgid "material"
+#~ msgstr "素材"
+
+#~ msgid "back list"
+#~ msgstr "返回列表"
+
+#~ msgid "operation success!"
+#~ msgstr "操作成功！"
+
+#~ msgid "Material title"
+#~ msgstr "素材标题"
+
+#~ msgid "show picture"
+#~ msgstr "展示图片"
+
+#~ msgid "seo keyword"
+#~ msgstr "SEO关键词"
+
+#~ msgid "please input the seo keyword."
+#~ msgstr "请输入SEO关键词内容"
+
+#~ msgid "external links"
+#~ msgstr "外部链接"
+
+#~ msgid "Please enter the external links"
+#~ msgstr "您可输入外部链接，链接格式：http://....."
+
+#~ msgid "content"
+#~ msgstr "内容"
+
+#~ msgid "wechat source manager"
+#~ msgstr "微信素材管理"
+
+#~ msgid "post time"
+#~ msgstr "提交时间"
+
+#~ msgid "wechat message"
+#~ msgstr "推送素材消息"
+
+#~ msgid "rtype"
+#~ msgstr "素材类型"
+
+#~ msgid "wechat tag"
+#~ msgstr "微信标签"
+
+#~ msgid "tag name"
+#~ msgstr "标签名称"
+
+#~ msgid "tag count"
+#~ msgstr "用户数量"
+
+#~ msgid "wechat user"
+#~ msgstr "微信用户"
+
+#~ msgid "sex"
+#~ msgstr "性别"
+
+#~ msgid "country"
+#~ msgstr "国别"
+
+#~ msgid "province"
+#~ msgstr "省"
+
+#~ msgid "city"
+#~ msgstr "城市"
+
+#~ msgid "subscribe_time"
+#~ msgstr "首次关注时间"
+
+#~ msgid "remark"
+#~ msgstr "备注"
+
+#~ msgid "argement error!"
+#~ msgstr "参数格式错误"
+
+#~ msgid "send job submission success"
+#~ msgstr "推送消息发送成功。"
+
+#~ msgid "resource are't sysc to weixin!"
+#~ msgstr "微信素材还未同步，请先同步至微信"
+
+#~ msgid "wechat user are't empty!"
+#~ msgstr "推送微信用户没有选择"
+
+#~ msgid "agrement is error"
+#~ msgstr "协议错误"
+
+#~ msgid "Your are not premiss"
+#~ msgstr "您没有权限做当前操作."
+
+#~ msgid "record"
+#~ msgstr "记录"
+
+#~ msgid "wechat service modify"
+#~ msgstr "微信客服编辑"
+
+#~ msgid "kf_account"
+#~ msgstr "客服账户"
+
+#~ msgid "kf_wx"
+#~ msgstr "客服微信"
+
+#~ msgid "kf_headimgurl"
+#~ msgstr "客服头像"
+
+#~ msgid "kf_nick"
+#~ msgstr "客服昵称"
+
+#~ msgid "kf_id"
+#~ msgstr "客服ID"
+
+#~ msgid "Wechat Service manager"
+#~ msgstr "微信客服管理"
+
+#~ msgid "add wechat service"
+#~ msgstr "新增微信客服"
+
+#~ msgid "weixin seting is error"
+#~ msgstr "公众号配置错误"
+
+#~ msgid "resource is already synchronization"
+#~ msgstr "资源以及完成同步"
+
+#~ msgid "showimg file is not exist"
+#~ msgstr "展示图片不能为空!"
+
+#~ msgid "update sucess!"
+#~ msgstr "操作成功"
+
+#~ msgid "Delete the local data failed"
+#~ msgstr "删除本地数据失败"
+
+#~ msgid "The material does not exist"
+#~ msgstr "素材不能为空."
+
+#~ msgid "Delete failed, the customer does not exist"
+#~ msgstr "删除失败，客户部存在."
+
+#~ msgid "shop link"
+#~ msgstr "商户链接"
+
+#~ msgid "module link"
+#~ msgstr "模块链接"
+
+#~ msgid "please select module"
+#~ msgstr "请选择内容模块"
+
+#~ msgid "product"
+#~ msgstr "商品"
+
+#~ msgid "please select category."
+#~ msgstr "请选择模块分类"
+
+#~ msgid "please select module content"
+#~ msgstr "请选择当前模块分类下的具体内容"
+
+#~ msgid "Reject the reason cannot be empty"
+#~ msgstr "驳回信息不能为空!"
+
+#~ msgid "add teacher"
+#~ msgstr "添加教师"
+
+#~ msgid "account"
+#~ msgstr "账户"
+
+#~ msgid "account_label"
+#~ msgstr "请输入账号"
+
+#~ msgid "password"
+#~ msgstr "密码"
+
+#~ msgid "password_label"
+#~ msgstr "请输入密码"
+
+#~ msgid "password confirm"
+#~ msgstr "确认密码"
+
+#~ msgid "password_confirm_label"
+#~ msgstr "请再次输入密码"
+
+#~ msgid "nickname_label"
+#~ msgstr "请输入昵称"
+
+#~ msgid "realname"
+#~ msgstr "真实姓名"
+
+#~ msgid "realname_label"
+#~ msgstr "请输入您的真实姓名"
+
+#~ msgid "reset"
+#~ msgstr "重置"
+
+#~ msgid "yes"
+#~ msgstr "正确"
+
+#~ msgid "sign manager"
+#~ msgstr "单页管理"
+
+#~ msgid "question"
+#~ msgstr "问题"
+
+#~ msgid "repeat nums"
+#~ msgstr "回复数量"
+
+#~ msgid "last repeat time"
+#~ msgstr "最近回复时间"
+
+#~ msgid "subject"
+#~ msgstr "课程"
+
+#~ msgid "subject part"
+#~ msgstr "课程批次"
+
+#~ msgid "is delete sure?"
+#~ msgstr "确定删除吗?"
+
+#~ msgid "is sure repeat?"
+#~ msgstr "确定恢复吗?"
+
+#~ msgid "cancel"
+#~ msgstr "取消"
+
+#~ msgid "ok"
+#~ msgstr "正常"
+
+#~ msgid "wechat link"
+#~ msgstr "微信链接"
+
+#~ msgid "wechat source"
+#~ msgstr "微信素材"
+
+#~ msgid "please select wechat source"
+#~ msgstr "请选择微信素材"
+
+#~ msgid "delete sure?"
+#~ msgstr "确定要删除吗？删除后不可恢复!"
+
+#~ msgid "article show"
+#~ msgstr "资讯展示"
+
+#~ msgid "account and password is empty!"
+#~ msgstr "账户或者密码不能为空!"
+
+#~ msgid "Login success"
+#~ msgstr "登陆成功"
+
+#~ msgid "Enter a different password for the two time"
+#~ msgstr "两次输入的密码不相同"
+
+#~ msgid "check code is failed"
+#~ msgstr "验证码错误"
+
+#~ msgid "register is successful"
+#~ msgstr "注册成功"
+
+#~ msgid "Registration failed. Please try again later"
+#~ msgstr "注册失败,请稍后再试"
+
+#~ msgid "account already exists"
+#~ msgstr "账户存在,不能重复注册"
+
+#~ msgid "account or password is empty!"
+#~ msgstr "账户或者密码为空!"
+
+#~ msgid "send timeout"
+#~ msgstr "发送时间"
+
+#~ msgid "Phone number format is wrong"
+#~ msgstr "手机格式错误"
+
+#~ msgid "SMS failure"
+#~ msgstr "短信发送失败"
+
+#~ msgid "Email format error"
+#~ msgstr "Email格式错误"
+
+#~ msgid "Email already exists"
+#~ msgstr "Email已经存在"
+
+#~ msgid "Email send success"
+#~ msgstr "Email发送成功"
+
+#~ msgid "Email send failure"
+#~ msgstr "Email发送失败"
+
+#~ msgid "auth success"
+#~ msgstr "认证成功。"
+
+#~ msgid "auth code is error"
+#~ msgstr "验证码错误"
+
+#~ msgid "request is error"
+#~ msgstr "错误请求"
+
+#~ msgid "product storage is not eagou"
+#~ msgstr "没有足够的库存"
+
+#~ msgid "argement is error"
+#~ msgstr "协议错误"
+
+#~ msgid "Please select delete products"
+#~ msgstr "请选择删除的商品"
+
+#~ msgid "no order product"
+#~ msgstr "订单商品不存在"
+
+#~ msgid "order wrong"
+#~ msgstr "订单错误"
+
+#~ msgid "user not set pay password"
+#~ msgstr "用户没有设置支付密码"
+
+#~ msgid "pay password is error"
+#~ msgstr "支付密码错误"
+
+#~ msgid "order is error"
+#~ msgstr "订单错误"
+
+#~ msgid "not set pay password"
+#~ msgstr "用户没有设置支付密码"
+
+#~ msgid "pay password wrong"
+#~ msgstr "支付密码错误"
+
+#~ msgid "your balance is not enough."
+#~ msgstr "你的资金余额不足"
+
+#~ msgid "not find order"
+#~ msgstr "未查询到相关订单"
+
+#~ msgid "is successed"
+#~ msgstr "成功"
+
+#~ msgid "attention success"
+#~ msgstr "关注成功"
+
+#~ msgid "attention failed"
+#~ msgstr "关注失败"
+
+#~ msgid "product is null"
+#~ msgstr "商品不能为null"
+
+#~ msgid "collect success"
+#~ msgstr "收藏成功"
+
+#~ msgid "collect failed"
+#~ msgstr "收藏失败"
+
+#~ msgid "product is not exsits"
+#~ msgstr "商品不存在."
+
+#~ msgid "my subject"
+#~ msgstr "我的课程"
+
+#~ msgid "my subject task of isrec"
+#~ msgstr "作品"
+
+#~ msgid "my subject task"
+#~ msgstr "我的作品"
+
+#~ msgid "argment error!"
+#~ msgstr "协议失败"
+
+#~ msgid "question is submit of success"
+#~ msgstr "问题提交成功"
+
+#~ msgid "question is submit of failed"
+#~ msgstr "问题提交失败"
+
+#~ msgid "submit question"
+#~ msgstr "提问"
+
+#~ msgid "train center"
+#~ msgstr "用户中心培训中心"
+
+#~ msgid "This user has been registered!"
+#~ msgstr "验证是否已注册"
+
+#~ msgid "Register Success!"
+#~ msgstr "注册成功"
+
+#~ msgid "Register Falid, Please Again"
+#~ msgstr "注册失败，请再试一次"
+
+#~ msgid "my children"
+#~ msgstr "我的孩子"
+
+#~ msgid "pay now"
+#~ msgstr "立即支付"
+
+#~ msgid "confirm receipt"
+#~ msgstr "确认收货"
+
+#~ msgid "comment goods"
+#~ msgstr "评价"
+
+#~ msgid "confirm return"
+#~ msgstr "确认退货"
+
+#~ msgid "Submitted successfully"
+#~ msgstr "提交成功!"
+
+#~ msgid "Cancel the success"
+#~ msgstr "订单取消成功!"
+
+#~ msgid "Confirm the success"
+#~ msgstr "确认请求发送成功!"
+
+#~ msgid "address is null"
+#~ msgstr "地址不能为空"
+
+#~ msgid "delete success"
+#~ msgstr "删除操作成功!"
+
+#~ msgid "Delete failed"
+#~ msgstr "删除失败"
+
+#~ msgid "Illegal operation"
+#~ msgstr "无效操作!"
+
+#~ msgid "user info"
+#~ msgstr "用户信息"
+
+#~ msgid "setting"
+#~ msgstr "设置"
+
+#~ msgid "not access vister"
+#~ msgstr "未授权访问"
+
+#~ msgid "not access."
+#~ msgstr "未授权访问"
+
+#~ msgid "id shop can't be 0"
+#~ msgstr "商户ID不能传入小于0的值"
+
+#~ msgid "login user not be null"
+#~ msgstr "登陆账号不能为空"
+
+#~ msgid "input code wrong"
+#~ msgstr "输入验证码错误"
+
+#~ msgid "login password not be null"
+#~ msgstr "登陆密码不能为空"
+
+#~ msgid "user not find or not set password"
+#~ msgstr "用户未找到或密码为空"
+
+#~ msgid "user or password wrong"
+#~ msgstr "用户或密码错误"
+
+#~ msgid "Account is not available"
+#~ msgstr "账户不可用"
+
+#~ msgid "code is wrong"
+#~ msgstr "收入的登陆验证码错误"
+
+#~ msgid "login type wrong"
+#~ msgstr "登陆方式错误"
+
+#~ msgid "bind user not find"
+#~ msgstr "绑定用户丢失"
+
+#~ msgid "plase login"
+#~ msgstr "请先登陆"
+
+#~ msgid "shop data wrong"
+#~ msgstr "商户数据错误"
+
+#~ msgid "you are not this shop admin"
+#~ msgstr "您不是此商户的管理员"
+
+#~ msgid "$"
+#~ msgstr "￥"
+
+#~ msgid "not support bind type"
+#~ msgstr "不支持的绑定登陆类型"
+
+#~ msgid "unkown order status"
+#~ msgstr "未知订单状态"
+
+#~ msgid "order status finish__1"
+#~ msgstr "订单完结"
+
+#~ msgid "order status disable"
+#~ msgstr "订单关闭"
+
+#~ msgid "order status time"
+#~ msgstr "等待生效"
+
+#~ msgid "order status init"
+#~ msgstr "订单待确认"
+
+#~ msgid "order not pay"
+#~ msgstr "未支付"
+
+#~ msgid "code order is pay"
+#~ msgstr "消费券待消费"
+
+#~ msgid "code order part"
+#~ msgstr "消费券部分使用"
+
+#~ msgid "code order over"
+#~ msgstr "消费券已全部使用"
+
+#~ msgid "In the order a refund"
+#~ msgstr "订单退款中"
+
+#~ msgid "shipping order is pay"
+#~ msgstr "等待发货"
+
+#~ msgid "partial shipment"
+#~ msgstr "部分发货"
+
+# 已签收
+#~ msgid "shpping order is over"
+#~ msgstr "已签收"
+
+#~ msgid "shpping order is ready"
+#~ msgstr "待签收"
+
+#~ msgid "alipay wap"
+#~ msgstr "支付宝支付"
+
+#~ msgid "wechat pay wap"
+#~ msgstr "微信支付"
+
+#~ msgid "recharge money"
+#~ msgstr "充值金额"
+
+#~ msgid "buy money"
+#~ msgstr "购物金额"
+
+#~ msgid "sell money"
+#~ msgstr "销售金额"
+
+#~ msgid "withdraw money"
+#~ msgstr "提现"
+
+#~ msgid "FUND_PROXY money"
+#~ msgstr "佣金"
+
+#~ msgid "refund withdraw"
+#~ msgstr "退款"
+
+#~ msgid "FUND_REF MONEY"
+#~ msgstr "分销收入"
+
+#~ msgid "receivable order"
+#~ msgstr "下单"
+
+#~ msgid "receivable proxy"
+#~ msgstr "代理"
+
+#~ msgid "receivable ref"
+#~ msgstr "分销"
+
+#~ msgid "RECEIVABLE_STATUS_WAIT"
+#~ msgstr "应收账款正常"
+
+#~ msgid "RECEIVABLE_STATUS_FINISH"
+#~ msgstr "应收账款完成"
+
+#~ msgid "RECEIVABLE_STATUS_FAIL"
+#~ msgstr "应收账款失效"
+
+#~ msgid "order is be refund"
+#~ msgstr "订单已经退款完成"
+
+#~ msgid "order can't be refund"
+#~ msgstr "订单无法退款操作"
+
+#~ msgid "no Refund"
+#~ msgstr "未退款"
+
+#~ msgid "refnding"
+#~ msgstr "退款待审核"
+
+#~ msgid "refund ok"
+#~ msgstr "退款完毕"
+
+#~ msgid "refund reject"
+#~ msgstr "退款驳回"
+
+#~ msgid "refund part"
+#~ msgstr "部分退款"
+
+#~ msgid "money account"
+#~ msgstr "余额"
+
+#~ msgid "money back"
+#~ msgstr "退款"
+
+#~ msgid "refund hand not"
+#~ msgstr "退款信息不存在"
+
+#~ msgid "refund hand ing"
+#~ msgstr "退款中"
+
+#~ msgid "refund hand ok"
+#~ msgstr "退款完成"
+
+#~ msgid "refund hand bad"
+#~ msgstr "退款失败"
+
+#~ msgid "refund pay init"
+#~ msgstr "退款支付初始化"
+
+#~ msgid "refund pay success"
+#~ msgstr "退款支付成功"
+
+#~ msgid "refund pay fial"
+#~ msgstr "退款支付失败"
+
+#~ msgid "order status ready"
+#~ msgstr "待发货"
+
+#~ msgid "order status finish"
+#~ msgstr "订单完结"
+
+#~ msgid "not yet shipped"
+#~ msgstr "未发货"
+
+#~ msgid "shipped"
+#~ msgstr "已发货"
+
+#~ msgid "not signde for yet"
+#~ msgstr "未签收"
+
+#~ msgid "partial receipt"
+#~ msgstr "部分签收"
+
+#~ msgid "APP"
+#~ msgstr "app"
+
+#~ msgid "PC"
+#~ msgstr "pc端"
+
+#~ msgid "wap"
+#~ msgstr "wap端"
+
+#~ msgid "code goods"
+#~ msgstr "虚拟商品"
+
+#~ msgid "general goods"
+#~ msgstr "实物商品"
+
+#~ msgid "shop product"
+#~ msgstr "商户商品"
+
+#~ msgid "pay status bad"
+#~ msgstr "支付取消"
+
+#~ msgid "pay status no"
+#~ msgstr "未支付"
+
+#~ msgid "pay status yes"
+#~ msgstr "已支付"
+
+#~ msgid "kown"
+#~ msgstr "未知"
+
+#~ msgid "external"
+#~ msgstr "全部外部资金支付"
+
+#~ msgid "student"
+#~ msgstr "学员"
+
+#~ msgid "parent"
+#~ msgstr "家长"
+
+#~ msgid "teacher"
+#~ msgstr "教师"
+
+#~ msgid "management"
+#~ msgstr "管理"
+
+#~ msgid "whack"
+#~ msgstr "正常"
+
+#~ msgid "classes pase"
+#~ msgstr "暂停"
+
+#~ msgid "audit"
+#~ msgstr "待审核"
+
+#~ msgid "normal classes begin"
+#~ msgstr "正常上课"
+
+#~ msgid "regular"
+#~ msgstr "标记为正常"
+
+#~ msgid "markWork"
+#~ msgstr "标记为作品"
+
+#~ msgid "to be approved"
+#~ msgstr "待批复"
+
+#~ msgid "has been approved"
+#~ msgstr "已批复"
+
+#~ msgid "single select"
+#~ msgstr "单选"
+
+#~ msgid "checkbox"
+#~ msgstr "多选"
+
+#~ msgid "input"
+#~ msgstr "输入"
+
+#~ msgid "wechat"
+#~ msgstr "微信"
+
+#~ msgid "mobile"
+#~ msgstr "手机"
+
+#~ msgid "wechat and mobile"
+#~ msgstr "微信和手机"
+
+#~ msgid "user bind wechat"
+#~ msgstr "微信绑定"
+
+#~ msgid "user bind QQ"
+#~ msgstr "QQ绑定"
+
+#~ msgid "user bind ali"
+#~ msgstr "支付宝绑定"
+
+#~ msgid "need special logistics"
+#~ msgstr "需要特别物流"
+
+#~ msgid "no need special logistics"
+#~ msgstr "不需要特别物流"
+
+#~ msgid "check"
+#~ msgstr "审核"
+
+#~ msgid "close"
+#~ msgstr "关闭"
+
+#~ msgid "setting yes"
+#~ msgstr "已设置"
+
+#~ msgid "no setting"
+#~ msgstr "未设置"
+
+#~ msgid "normal"
+#~ msgstr "正常"
+
+#~ msgid "closed or delete"
+#~ msgstr "删除或者关闭"
+
+#~ msgid "normal sign"
+#~ msgstr "正常签到"
+
+#~ msgid "subject sign"
+#~ msgstr "课程签到"
+
+#~ msgid "already"
+#~ msgstr "已处理"
+
+#~ msgid "wait"
+#~ msgstr "待处理"
+
+#~ msgid "industry of education"
+#~ msgstr "教育行业"
+
+#~ msgid "industry of bussiness"
+#~ msgstr "电商行业"
+
+#~ msgid "industry of trip"
+#~ msgstr "旅游行业"
+
+#~ msgid "module of article"
+#~ msgstr "文章模块"
+
+#~ msgid "module of resource"
+#~ msgstr "素材-信息模块"
+
+#~ msgid "Text Message"
+#~ msgstr "单文本素材"
+
+#~ msgid "Single graphic"
+#~ msgstr "单图文素材"
+
+#~ msgid "More graphic"
+#~ msgstr "多图文素材"
+
+#~ msgid "not synchronized"
+#~ msgstr "待同步"
+
+#~ msgid "closed"
+#~ msgstr "关闭"
+
+#~ msgid "no read"
+#~ msgstr "未读"
+
+#~ msgid "read already"
+#~ msgstr "已读"
+
+#~ msgid "waiting pay"
+#~ msgstr "待支付"
+
+#~ msgid "waiting"
+#~ msgstr "请稍后..."
+
+#~ msgid "watting"
+#~ msgstr "请稍后..."
+
+#~ msgid "waitting update"
+#~ msgstr "请稍后..."
+
+#~ msgid "qrcode not use"
+#~ msgstr "没有启用二维码"
+
+#~ msgid "qrcode is use"
+#~ msgstr "已经启用二维码"
+
+#~ msgid "qrcode is part"
+#~ msgstr "部分二维码启用"
+
+#~ msgid "qrcode is bad"
+#~ msgstr "二维码错误"
+
+#~ msgid "qrcode is ok"
+#~ msgstr "二维码正确"
+
+#~ msgid "qrcode is refund"
+#~ msgstr "二维码退款"
+
+#~ msgid "comment not audit"
+#~ msgstr "无需审核"
+
+#~ msgid "comment need audit"
+#~ msgstr "需要审核"
+
+#~ msgid "order type is base"
+#~ msgstr "普通订单"
+
+#~ msgid "order type is seckill"
+#~ msgstr "秒杀订单"
+
+#~ msgid "order type is group"
+#~ msgstr "团购订单"
+
+#~ msgid "order type is drp"
+#~ msgstr "分销订单"
+
+#~ msgid "order type is fight"
+#~ msgstr "拼团订单"
+
+#~ msgid "order type is pre"
+#~ msgstr "预购订单"
+
+#~ msgid "GROUPON_STATUS_WAIT"
+#~ msgstr "团购失败，待商家处理"
+
+#~ msgid "GROUPON_STATUS_FAILOK"
+#~ msgstr "团购失败退款处理完成"
+
+#~ msgid "GROUPON_STATUS_FAIL"
+#~ msgstr "商家标记为团购失败"
+
+#~ msgid "GROUPON_STATUS_SUCC"
+#~ msgstr "商家标记为团购成功"
+
+#~ msgid "withdraw is init"
+#~ msgstr "提款初始化"
+
+#~ msgid "withdraw is pay"
+#~ msgstr "提款成功"
+
+#~ msgid "withdraw is ing"
+#~ msgstr "提款中"
+
+#~ msgid "withdraw is bad"
+#~ msgstr "提款失败"
+
+#~ msgid "withdraw type alipay"
+#~ msgstr "支付宝"
+
+#~ msgid "withdraw type wechat"
+#~ msgstr "微信"
+
+#~ msgid "deleted"
+#~ msgstr "已删除"
+
+#~ msgid "groupon"
+#~ msgstr "团购"
+
+#~ msgid "seckill"
+#~ msgstr "秒杀"
+
+#~ msgid "fight groups"
+#~ msgstr "拼团"
+
+#~ msgid "distribution of channel"
+#~ msgstr "渠道分销"
+
+#~ msgid "distribution of user"
+#~ msgstr "会员分销"
+
+#~ msgid "distribution of channel and user"
+#~ msgstr "渠道加会员分销"
+
+#~ msgid "proxy one"
+#~ msgstr "一级渠道"
+
+#~ msgid "proxy two"
+#~ msgstr "二级渠道"
+
+#~ msgid "proxy three"
+#~ msgstr "三级渠道"
+
+#~ msgid "url not support"
+#~ msgstr "抓取地址不支持"
+
+#~ msgid "get remote file fail"
+#~ msgstr "获取远程文件失败"
+
+#~ msgid "save file fail"
+#~ msgstr "保持文件失败"
+
+#~ msgid "ext not match"
+#~ msgstr "远程文件格式不匹配"
+
+#~ msgid "plase input email"
+#~ msgstr "邮箱地址无效"
+
+#~ msgid "mail not config"
+#~ msgstr "邮箱未配置"
+
+#~ msgid "mail config wrong"
+#~ msgstr "邮箱接口配置错误"
+
+#~ msgid "miss shop id"
+#~ msgstr "商户丢失"
+
+#~ msgid "login fail"
+#~ msgstr "登录失败"
+
+#~ msgid "load shop user fail"
+#~ msgstr "加载商户用户数据失败"
+
+#~ msgid "miss shop"
+#~ msgstr "商户丢失"
+
+#~ msgid "not support pay type."
+#~ msgstr "不支持的支付方式"
+
+#~ msgid "wrong recharge."
+#~ msgstr "错误的充值记录"
+
+#~ msgid "money not match."
+#~ msgstr "充值金额不匹配"
+
+#~ msgid "can't find recharge record."
+#~ msgstr "不能找到充值记录"
+
+#~ msgid "wrong refund."
+#~ msgstr "返退错误"
+
+#~ msgid "this shop refund is request!"
+#~ msgstr "退款已完结"
+
+#~ msgid "recharge row is miss"
+#~ msgstr "充值数据丢失"
+
+#~ msgid "pay interface error"
+#~ msgstr "支付接口出错"
+
+#~ msgid "code wrong"
+#~ msgstr "验证码错误"
+
+#~ msgid "plase input mobile"
+#~ msgstr "请输入手机号"
+
+#~ msgid "sms not config"
+#~ msgstr "短信接口未配置"
+
+#~ msgid "sms config wrong"
+#~ msgstr "短信接口配置错误"
+
+#~ msgid "mail tpl is not support"
+#~ msgstr "邮件模板不支持"
+
+#~ msgid "alipay config wrong"
+#~ msgstr "支付宝配置错误."
+
+#~ msgid "alipay return wrong: :result"
+#~ msgstr "支付宝返回错误: :result"
+
+#~ msgid "model can't be null."
+#~ msgstr "model不能时空对象"
+
+#~ msgid "Activity miss shop,Can't edit."
+#~ msgstr "商品关联商家数据丢失,无法进行编辑."
+
+#~ msgid "param not support."
+#~ msgstr "参数不支持"
+
+#~ msgid "this obj is build,can't call build."
+#~ msgstr "该对象已经编译,不能在次调用"
+
+#~ msgid "title can't be null"
+#~ msgstr "标题不能为空"
+
+#~ msgid "activity pic file can't be null"
+#~ msgstr "活动海报图片不能为空。"
+
+#~ msgid "activity start time AND end time can't null"
+#~ msgstr "活动开始和结束时间不能为空"
+
+#~ msgid "activity :title is exites."
+#~ msgstr "活动 :title 已经存在"
+
+#~ msgid "insert activity data error."
+#~ msgstr "活动录入失败"
+
+#~ msgid "insert activity brief data error."
+#~ msgstr "活动内容录入失败"
+
+#~ msgid "activity is add,but can't load it"
+#~ msgstr "活动已经录入，但是不能重新加载"
+
+#~ msgid "activity is not fee,please input the price"
+#~ msgstr "当前活动您选择的是收费，请输入相关收费项"
+
+#~ msgid "id_shop can't be null."
+#~ msgstr "创建分类必须传入店铺ID"
+
+#~ msgid "can't create cat on null cat model."
+#~ msgstr "不能在空分类 model上创建子分类"
+
+#~ msgid "cat name can't be null."
+#~ msgstr "分类名不能为空"
+
+#~ msgid "cat name already exists."
+#~ msgstr "分类名已经存在"
+
+#~ msgid "can't edit cat on null Cat model."
+#~ msgstr "不能在空 model上进行修改"
+
+#~ msgid "Cat name can't be null."
+#~ msgstr "类别名称不能为空"
+
+#~ msgid "cat not support list method"
+#~ msgstr "不支持列表方法"
+
+#~ msgid "cat not support list count method"
+#~ msgstr "不支持列表数量统计风发"
+
+#~ msgid "shop can't be null"
+#~ msgstr "商户不能null"
+
+#~ msgid "Article miss shop,Can't edit."
+#~ msgstr "商品关联商家数据丢失,无法进行编辑."
+
+#~ msgid "article :title is exites."
+#~ msgstr ":title 已经存在"
+
+#~ msgid "insert article data error."
+#~ msgstr "插入数据错误"
+
+#~ msgid "insert article brief data error."
+#~ msgstr "插入产品相册数据错误"
+
+#~ msgid "article is add,but can't load it"
+#~ msgstr "添加成功,但无法查找"
+
+#~ msgid "Level 1 menu add three at most"
+#~ msgstr "一级菜单不能超过3个"
+
+#~ msgid "Level 2 menu add five at most"
+#~ msgstr "二级菜单不能超过5个"
+
+#~ msgid "Navegate miss shop,Can't edit."
+#~ msgstr "商品关联商家数据丢失,无法进行编辑."
+
+#~ msgid "name can't be null"
+#~ msgstr "标题不能为空"
+
+#~ msgid "navegate :name is exites."
+#~ msgstr " :title 已经存在"
+
+#~ msgid "insert navegate data error."
+#~ msgstr "插入数据错误"
+
+#~ msgid "navegate is add,but can't load it"
+#~ msgstr "添加成功,但无法查找"
+
+#~ msgid "Order is not valid"
+#~ msgstr "订单未生效，请稍后进行发货"
+
+#~ msgid "order not pay,can't add shipping."
+#~ msgstr "订单还未完成支付，暂不能发货"
+
+#~ msgid "plase select shipping"
+#~ msgstr "请选择物流信息"
+
+#~ msgid "all shipping can't add shipping data."
+#~ msgstr "所有的物流部嗯那个添加物流数据"
+
+#~ msgid "insert order shipping data wrong."
+#~ msgstr "订单物流数据错误"
+
+#~ msgid "not out goods,can't change to finish."
+#~ msgstr "无发货记录,不能标注为已完成发货"
+
+#~ msgid "order [:id_order] is miss"
+#~ msgstr "订单[:id_order]丢失"
+
+#~ msgid "code is refund"
+#~ msgstr "消费码已经回退"
+
+#~ msgid "code is invalid"
+#~ msgstr "消费密码是无效的"
+
+#~ msgid "code is use,use time::time"
+#~ msgstr "消费密码已被使用,使用时间为::time"
+
+#~ msgid "order is used over"
+#~ msgstr "订单已经完成"
+
+#~ msgid "finishOrder:can't find shop user row."
+#~ msgstr "完成订单:无法获取商家与自己商店关系记录"
+
+#~ msgid "update order data fail [:id_order]"
+#~ msgstr "更新订单优惠码状态失败"
+
+#~ msgid "change order code_used  status fail"
+#~ msgstr "更改订单优惠码失败"
+
+#~ msgid "orderRefundConfirm:refund request is invalid."
+#~ msgstr "提交退款请求无效"
+
+#~ msgid "order not pay,can't confirm refund."
+#~ msgstr "订单未支付，不能进行确认操作"
+
+#~ msgid "update order refunds data fail"
+#~ msgstr "无法更新order_refunds表数据"
+
+#~ msgid "change order code status fail"
+#~ msgstr "更新订单状态失败"
+
+#~ msgid "can't get shop user data"
+#~ msgstr "无法获取店铺用户信息"
+
+#~ msgid "change order data status fail"
+#~ msgstr "更新订单状态失败"
+
+#~ msgid "return update data fail"
+#~ msgstr "退款更新订单商品表失败"
+
+#~ msgid "sell payment fail,system busy."
+#~ msgstr "商家收款失败,系统繁忙"
+
+#~ msgid "orderRefundConfirm:refund status wrong."
+#~ msgstr "提交的退款状态错误"
+
+#~ msgid "can't insert order data,create order fail"
+#~ msgstr "创建订单失败"
+
+#~ msgid "can't insert order product record,create order product fail."
+#~ msgstr "创建订单产品数据失败"
+
+#~ msgid "Order is confirm"
+#~ msgstr "订单已确认"
+
+#~ msgid "order is wrong"
+#~ msgstr "订单错误"
+
+#~ msgid "virtual order not support shipping"
+#~ msgstr "虚拟物品订单不需要收货操作"
+
+#~ msgid "There are product not shipped, please try later"
+#~ msgstr "当前商品没有选择物流信息，请稍后再试."
+
+#~ msgid "the order is refunding,can't confirm shipping"
+#~ msgstr "当前订单正在退换货中，不能改变物流状态"
+
+#~ msgid "change order shipping status fail"
+#~ msgstr "更改订单物流状态失败"
+
+#~ msgid "order is null,can't return."
+#~ msgstr "订单为空,不能进行退款"
+
+#~ msgid "order not pay,can't refund."
+#~ msgstr "未支付订单"
+
+#~ msgid "the order is refund."
+#~ msgstr "此订单已经完成退款"
+
+#~ msgid "the order not refund."
+#~ msgstr "此订单暂时不支持退款"
+
+#~ msgid "you need choose product and product num."
+#~ msgstr "您需要选择商品和商品数量"
+
+#~ msgid "the product id :product_id not exist this order."
+#~ msgstr "指定商品ID :product_id 不存在在当前订单"
+
+#~ msgid "the order product can‘t be refund."
+#~ msgstr "订单中的此商品不支持退款"
+
+#~ msgid "order is finish,can't refund."
+#~ msgstr "订单已完结,不能退款"
+
+#~ msgid "the product price is 0,can't refund."
+#~ msgstr "产品价格为0的虚拟物品不支持退款"
+
+#~ msgid "No more product can be refunded."
+#~ msgstr "没有其他商品可以进行退款申请。"
+
+#~ msgid "request refund fail,insert data error."
+#~ msgstr "退款申请失败:插入记录失败"
+
+#~ msgid "this produt is refund."
+#~ msgstr "当前商品已经申请退款完成"
+
+#~ msgid "plase enter refund money."
+#~ msgstr "请输入退款金额"
+
+#~ msgid "Refund to be recognized businesses."
+#~ msgstr "退款待商家确认"
+
+#~ msgid "free product not support refund"
+#~ msgstr "免费商品已发货后不支持退款"
+
+#~ msgid "Refund amount can not be more than :money > :total_money."
+#~ msgstr "退款金额不能超过︰ 钱 >: total_money。"
+
+#~ msgid "insert request refund data fail."
+#~ msgstr "插入请求退款数据失败"
+
+#~ msgid "request refund fail,update data error."
+#~ msgstr "更新数据错误，失败请求退款。"
+
+#~ msgid "record wrong"
+#~ msgstr "记录错误"
+
+#~ msgid "sell order :sn money"
+#~ msgstr "销售金额"
+
+#~ msgid "can't reminder,plase check order status."
+#~ msgstr "无法进行发货提醒,请检查订单状态"
+
+#~ msgid "can't find this code"
+#~ msgstr "没有找到该消费码"
+
+#~ msgid "inser order fight data wrong"
+#~ msgstr "无法插入拼团订单数据"
+
+#~ msgid "Order fight is not valid."
+#~ msgstr "此拼团不能进行退款"
+
+#~ msgid "fight  groupon data miss."
+#~ msgstr "拼团数据丢失"
+
+#~ msgid "fight groupon not end."
+#~ msgstr "拼团未结束，不能进行退款"
+
+#~ msgid "fight groupon is ok,can't refund"
+#~ msgstr "拼团成功，无需退款"
+
+#~ msgid "fight  groupon is wait."
+#~ msgstr "拼团待商家确认"
+
+#~ msgid "update groupon data fail"
+#~ msgstr "更新团购退款信息失败"
+
+#~ msgid "update order data fail"
+#~ msgstr "更新团购退款信息失败"
+
+#~ msgid "update order products data fail"
+#~ msgstr "更新团购退款信息失败"
+
+#~ msgid "update product_groupon data fail"
+#~ msgstr "更新团购退款信息失败"
+
+#~ msgid "groupon id and status is not empty!"
+#~ msgstr "团购ID和状态不能为空!"
+
+#~ msgid "inser order groupon data wrong"
+#~ msgstr "无法插入团购订单数据"
+
+#~ msgid "Order is not valid."
+#~ msgstr "此团购不能进行退款"
+
+#~ msgid "groupon data miss."
+#~ msgstr "团购数据丢失"
+
+#~ msgid "groupon not end."
+#~ msgstr "团购未结束，不能进行退款"
+
+#~ msgid "groupon is ok,can't refund"
+#~ msgstr "已成团且无款可退"
+
+#~ msgid "groupon is wait."
+#~ msgstr "团购待商家确认"
+
+#~ msgid "OrderParamModel ShopModel can't be null"
+#~ msgstr "创建 OrderParamModel 不能传人空的 ShopModel 模型"
+
+#~ msgid "order product is empty"
+#~ msgstr "订单产品为空"
+
+#~ msgid "order need buy user"
+#~ msgstr "请提供购买用户"
+
+#~ msgid "miss shipping,plase set shipping_area_price and shipping"
+#~ msgstr "订单需要物流信息，请先添加"
+
+#~ msgid "product :product need shipping"
+#~ msgstr "产品【:product】需要额外的物流信息,但未提供"
+
+#~ msgid "need setting order pay"
+#~ msgstr "请提供付款模型"
+
+#~ msgid "need setting order address"
+#~ msgstr "请提供收货地址"
+
+#~ msgid "shop or user can't be null"
+#~ msgstr "商户或者用户不能为null"
+
+#~ msgid "insert order pay data wrong"
+#~ msgstr "插入订单支付信息错误。"
+
+#~ msgid "add pay money fial"
+#~ msgstr "新增支付金额失败。"
+
+#~ msgid "order pay is empty,can't be pay."
+#~ msgstr "订单支付方式为空，不能进行支付。"
+
+#~ msgid "the order pay is timeout."
+#~ msgstr "订单支付是超时。"
+
+#~ msgid "order pay:can't find shop user row."
+#~ msgstr "订单支付:无法获取用户与商店关系记录"
+
+#~ msgid "extranal out nedd shop recharge id"
+#~ msgstr "外部支付需要传入充值ID"
+
+#~ msgid "order data is miss."
+#~ msgstr "订单数据丢失"
+
+#~ msgid "pay order id :id"
+#~ msgstr "支付订单ID:id"
+
+#~ msgid "update order pay data fail,order pay id: :id ."
+#~ msgstr "更新订单支付数据失败，支付ID:id"
+
+#~ msgid "update order pay data fail,order pay id: :id order id :id_order ."
+#~ msgstr "订单丢失,无法完成支付"
+
+#~ msgid "order pay is pay,can't split"
+#~ msgstr "订单已经完成支付,不能进行分拆"
+
+#~ msgid "get order pay ,order id is worng"
+#~ msgstr "获取支付订单,订单ID错误"
+
+#~ msgid "update order id_order_pay fail"
+#~ msgstr "更新支付订单ID失败"
+
+#~ msgid "inser order pre data wrong"
+#~ msgstr "无法插入预购订单数据"
+
+#~ msgid "out pay need pay no."
+#~ msgstr "外部支付需要支付订单号。"
+
+#~ msgid "pay order after money"
+#~ msgstr "订单尾款"
+
+#~ msgid "update order pay data fail"
+#~ msgstr "订单丢失,无法完成支付"
+
+#~ msgid "this pre need refund"
+#~ msgstr "此订单预付款需要退换给用户"
+
+#~ msgid "this pre order not end"
+#~ msgstr "此订单预付订单未结束"
+
+#~ msgid "this pre money is pay"
+#~ msgstr "预付款已转给商家"
+
+#~ msgid "this Order is not valid."
+#~ msgstr "此订单无效"
+
+#~ msgid "fund sell pre money"
+#~ msgstr "得到用户预付款"
+
+#~ msgid "update product pre data fail"
+#~ msgstr "更新预付款退款信息失败"
+
+#~ msgid "this pre can't be refund"
+#~ msgstr "尾款已付不能退款"
+
+#~ msgid "pre id is not empty!"
+#~ msgstr "预购商品不能为空!"
+
+#~ msgid "inser order ref data wrong"
+#~ msgstr "无法插入订单商品引用数据"
+
+#~ msgid "inser order seckill data wrong"
+#~ msgstr "无法插入秒杀订单数据"
+
+#~ msgid "seckill id is not empty!"
+#~ msgstr "秒杀ID不能为空!"
+
+#~ msgid "OrderUtilModel ShopModel can't be null"
+#~ msgstr "OrderUtilModel 中 ShopModel 不能为空"
+
+#~ msgid "order need user address"
+#~ msgstr "订单需要用户地址"
+
+#~ msgid "can't get shop default shiiping,plase check shop setting."
+#~ msgstr "商家未配置配送公司,无法完成下单"
+
+#~ msgid "product [:product ID::product_id] need special shipping,but not find it."
+#~ msgstr "指定商品需要特殊物流,但没找到任何特殊物流设置"
+
+#~ msgid "can't get shop shiiping,plase check shop setting."
+#~ msgstr "无法获取默认物流公司,请先在商家后台配置物流信息"
+
+#~ msgid "product not exist"
+#~ msgstr "商品不存在"
+
+#~ msgid "product is empty"
+#~ msgstr "商品已卖完"
+
+#~ msgid "shop is empty"
+#~ msgstr "商户数据有误"
+
+#~ msgid "cart  does not exist"
+#~ msgstr "购物车不存在"
+
+#~ msgid "cart is empty"
+#~ msgstr "购物车为空"
+
+#~ msgid "cart data is wrong"
+#~ msgstr "购物车数据错误"
+
+#~ msgid "attrtpls miss shop,Can't edit."
+#~ msgstr "商品关联商家数据丢失,无法进行编辑."
+
+#~ msgid "attr name can't be null"
+#~ msgstr "属性名不能为空"
+
+#~ msgid "attr type nulti or sigle need attr values"
+#~ msgstr "单选或多选的属性必须添加值"
+
+#~ msgid "attr need select cat"
+#~ msgstr "属性需要选择一个关联类型"
+
+#~ msgid "attr tpls :name is exites."
+#~ msgstr "属性名 :name 已经存在"
+
+#~ msgid "insert attr tpls data error."
+#~ msgstr "插入属性模板"
+
+#~ msgid "updata attr tpls data error."
+#~ msgstr "更新属性模板出错"
+
+#~ msgid "can't create brand on null brand model."
+#~ msgstr "不能在空brean model上创建子model"
+
+#~ msgid "brand name can't be null."
+#~ msgstr "品牌名不能为空"
+
+#~ msgid "brand name already exists."
+#~ msgstr "品牌名已经存在"
+
+#~ msgid "can't edit brand on null brand model."
+#~ msgstr "不能在空brean model上进行修改"
+
+#~ msgid "Product miss shop,Can't edit."
+#~ msgstr "商品关联商家数据丢失,无法进行编辑."
+
+#~ msgid "product :title is exites."
+#~ msgstr "商品 :title 已经存在"
+
+#~ msgid "enable special shipping need add special shipping data"
+#~ msgstr "开启商品特殊物流需要添加特殊物流数据"
+
+#~ msgid "insert product data error."
+#~ msgstr "插入产品数据错误"
+
+#~ msgid "product is add,but can't load it"
+#~ msgstr "商品添加成功,但无法查找"
+
+#~ msgid "insert product special shipping data error."
+#~ msgstr "插入产品物流数据出错"
+
+#~ msgid "insert product brief data error."
+#~ msgstr "插入产品相册数据错误"
+
+#~ msgid "product or user can't be null"
+#~ msgstr "商品和用户不能为null"
+
+#~ msgid "comment can't be null"
+#~ msgstr "评论不能为null"
+
+#~ msgid "comment status error"
+#~ msgstr "评论状态错误"
+
+#~ msgid "ratio set wrong"
+#~ msgstr "分成比例请设置在0-1之间"
+
+#~ msgid "level set wrong"
+#~ msgstr "等级设置错误"
+
+#~ msgid "product_distribution radio limit"
+#~ msgstr "产品分销分成超过100%"
+
+#~ msgid "product can't be null"
+#~ msgstr "商品不能为空"
+
+#~ msgid "product level :level is exites"
+#~ msgstr "商品分销等级 :level 已经存在"
+
+#~ msgid "the product is miss,can't edit the groupon"
+#~ msgstr "产品已经失效不能编辑团购"
+
+#~ msgid "fight exites time :stime - :etime"
+#~ msgstr "存在以下拼团 :stime - :etime 跟当前时间设置冲突"
+
+#~ msgid "groupon time set wrong"
+#~ msgstr "团购时间设置错误"
+
+#~ msgid "fight is end,can't be change"
+#~ msgstr "拼团已经结束"
+
+#~ msgid "fight num or price can't <=0"
+#~ msgstr "拼团价格或数量不能为0"
+
+#~ msgid "fight price need < :price"
+#~ msgstr "价格必须小于 :price"
+
+#~ msgid "fight price need > :price"
+#~ msgstr "价格必须大于 :price"
+
+#~ msgid "fight is start and order_count>0,can't edit"
+#~ msgstr "拼团已经开始且有人参与,不能进行修改"
+
+#~ msgid "the rule can't be delete, order_count is :order_count"
+#~ msgstr "当前规则不能删除，已经存在订单，订单总数:order_count"
+
+#~ msgid "fight not be end"
+#~ msgstr "拼团未结束"
+
+#~ msgid "the open fight limit"
+#~ msgstr "开团数量超过限制"
+
+#~ msgid "the user is create fight"
+#~ msgstr "你已经创建了该拼团"
+
+#~ msgid "the fight can't be delete"
+#~ msgstr "已有人参与的拼团不能删除"
+
+#~ msgid "create product group product can't be null."
+#~ msgstr "商品组创建商品部能为空"
+
+#~ msgid "groupon not be end"
+#~ msgstr "团购未结束"
+
+#~ msgid "groupon exites time :stime - :etime"
+#~ msgstr "存在以下团购 :stime - :etime 跟当前时间设置冲突"
+
+#~ msgid "groupon is end,can't be change"
+#~ msgstr "团购已经结束"
+
+#~ msgid "groupon is start,groupon num can't <= :order_count"
+#~ msgstr "团购已经开始，添加规则数量不能少于 :order_count"
+
+#~ msgid "groupon num or price can't <=0"
+#~ msgstr "价格不能小于等于0"
+
+#~ msgid "price need < :price"
+#~ msgstr "价格必须小于 :price"
+
+#~ msgid "price need > :price"
+#~ msgstr "价格必须大于 :price"
+
+#~ msgid "product pre price wrong < :price"
+#~ msgstr "预收款前期定金不能超过 :price"
+
+#~ msgid "product after price wrong < :price"
+#~ msgstr "尾款不能超过 :price"
+
+#~ msgid "product pre price can't be 0 or > :price"
+#~ msgstr "总付款金额不能为0或超过 :price"
+
+#~ msgid "time wrong"
+#~ msgstr "时间格式错误"
+
+#~ msgid "product pre exites time :stime - :etime on price :price"
+#~ msgstr "存在以下 :stime - :etime 存在首付款为 :price 的预购"
+
+#~ msgid "pro is run,can't be edit"
+#~ msgstr "预购已经开始，不能进行编辑"
+
+#~ msgid "ratio wrong"
+#~ msgstr "分成比例设置错误，值在0-1之间"
+
+#~ msgid "level :level exites,ratio :ratio"
+#~ msgstr "等级 :level 已经存在,分成比例:ratio"
+
+#~ msgid "level :level ratio need >= :ratio"
+#~ msgstr "等级 :level 的陈本比例需大于等于:ratio"
+
+#~ msgid "level :level ratio need <= :ratio"
+#~ msgstr "等级 :level 的陈本比例需小于等于:ratio"
+
+#~ msgid "product proxy ratio on 0.01-1之间"
+#~ msgstr "商品拿货价应该在0.01至1之间"
+
+#~ msgid "Shop ID and Product ID and Rule ID empty!"
+#~ msgstr "商户ID/商品ID和规则ID为空."
+
+#~ msgid "proxy product [:product] money"
+#~ msgstr "代理商品[:product]收入"
+
+#~ msgid "distribution product [:product] money"
+#~ msgstr "分销商品[:product]收入"
+
+#~ msgid "proxy order money"
+#~ msgstr "代理收益"
+
+#~ msgid "ref order :sn money"
+#~ msgstr ""
+#~ "分销收益，订单 :sn\n"
+#~ "\t\t\t\t\t));"
+
+#~ msgid "seckill preic need shop price"
+#~ msgstr "秒杀价必须小于零售价"
+
+#~ msgid "seckill need set storage"
+#~ msgstr "需要指定库存数量"
+
+#~ msgid "seckill exites time :stime - :etime"
+#~ msgstr "存在以下秒杀 :stime - :etime 跟当前时间设置冲突"
+
+#~ msgid "seckill is run,can't be edit"
+#~ msgstr "秒杀正在进行中，不能进行编辑"
+
+#~ msgid "redis is disable"
+#~ msgstr "redis服务未启用"
+
+#~ msgid "seckill not find"
+#~ msgstr "秒杀未找到"
+
+#~ msgid "seckill cache fail"
+#~ msgstr "秒杀缓存失败"
+
+#~ msgid "seckill is over"
+#~ msgstr "秒杀已经结束"
+
+#~ msgid "seckill is user run"
+#~ msgstr "你已参与过此商品秒杀"
+
+#~ msgid "seckill run is fail"
+#~ msgstr "已经被秒杀完了"
+
+#~ msgid "Resource miss shop,Can't edit."
+#~ msgstr "素材资源商户丢失,不能进行编辑"
+
+#~ msgid "shop is not init."
+#~ msgstr "商户不能被初始化"
+
+#~ msgid "resource :title is exites."
+#~ msgstr "素材资源:title已经存在"
+
+#~ msgid "The material must be set to a link"
+#~ msgstr "素材必须得有链接"
+
+#~ msgid "resource is not exists"
+#~ msgstr "素材资源不存在"
+
+#~ msgid "resource update error!"
+#~ msgstr "素材资源更新错误"
+
+#~ msgid "resource rtype is not empty!"
+#~ msgstr "资源类型不能为空"
+
+#~ msgid "resource insert failed"
+#~ msgstr "素材资源新增失败"
+
+#~ msgid "resource is must be init"
+#~ msgstr "素材资源必须初始化"
+
+#~ msgid "rose_name can't be null"
+#~ msgstr "角色名称不能为空"
+
+#~ msgid "functiton_name can't be null"
+#~ msgstr "权限点名称不能为空"
+
+#~ msgid "rose_group_name can't be null"
+#~ msgstr "角色组名称不能为空!"
+
+#~ msgid "id_rose An functions can't be null"
+#~ msgstr "没有选择角色和权限功能点"
+
+#~ msgid "id_rose An id_rose_group can't be null"
+#~ msgstr "角色和角色组没有选择"
+
+#~ msgid "Rule miss shop,Can't edit."
+#~ msgstr "关联商家数据丢失,无法进行编辑."
+
+#~ msgid "Shop model init failed"
+#~ msgstr "商户初始化失败!"
+
+#~ msgid "is building"
+#~ msgstr "正在编译中.."
+
+#~ msgid "Shop init failed!"
+#~ msgstr "商户初始化失败!"
+
+#~ msgid "rule name is not empty!"
+#~ msgstr "规则名称不能为空！"
+
+#~ msgid "rule config is not empty"
+#~ msgstr "规则配置信息不能为空!"
+
+#~ msgid "rule name:name is exsited"
+#~ msgstr "规则名:name已经存在!"
+
+#~ msgid "rule is not exists"
+#~ msgstr "规则信息不存在"
+
+#~ msgid "The rule model is not initialized"
+#~ msgstr "规则模型未进行初始化."
+
+#~ msgid "product groupon rule is not init"
+#~ msgstr "团购正在进行中，不能进行编辑"
+
+#~ msgid "Pre payment and balance payment rules configuration error"
+#~ msgstr "预购预付款和尾款支付规则配置错误"
+
+#~ msgid "shipping name already exists."
+#~ msgstr "分类名已经存在"
+
+#~ msgid "name can't be null."
+#~ msgstr "物流名不能为空"
+
+#~ msgid "set param wrong"
+#~ msgstr "错误的参数"
+
+#~ msgid "shop not match"
+#~ msgstr "店铺不匹配"
+
+#~ msgid "name already exists."
+#~ msgstr "物流名已经存在"
+
+#~ msgid "plase load shipping area"
+#~ msgstr "请先加载物流区域信息"
+
+#~ msgid "can't delete this data"
+#~ msgstr "不能删除这个数据"
+
+#~ msgid "area data wrong"
+#~ msgstr "传入的地址数据错误"
+
+#~ msgid "user id can't be null"
+#~ msgstr "用户ID不能为空"
+
+#~ msgid "domain is wrong"
+#~ msgstr "域名错误"
+
+#~ msgid "shop type not support"
+#~ msgstr "不支持该商户类型"
+
+#~ msgid "shop name already exists."
+#~ msgstr "商户名称已经存在"
+
+#~ msgid "plase load shop data"
+#~ msgstr "请加载商户数据"
+
+#~ msgid "can't find :account shop"
+#~ msgstr "未查询到:account商户"
+
+#~ msgid "select shop"
+#~ msgstr "请选择店铺"
+
+#~ msgid "select area wrong[0]"
+#~ msgstr "选择地址错误"
+
+#~ msgid "select area wrong[1]"
+#~ msgstr "选择地址不存在"
+
+#~ msgid "address can't be null"
+#~ msgstr "详细地址不能为空"
+
+#~ msgid "mobile can't be null"
+#~ msgstr "手机号填写错误"
+
+#~ msgid "location is wrong"
+#~ msgstr "坐标数据错误"
+
+#~ msgid "can't carete null product cart item"
+#~ msgstr "不能购买空商品"
+
+#~ msgid "shop cart obj is invalid"
+#~ msgstr "无效的shopcart对象"
+
+#~ msgid ":product may be delete ,can't add it."
+#~ msgstr ":product 可能被删除，不能添加它。"
+
+#~ msgid "product [:product ID::product_id] may be delete ,can't add it."
+#~ msgstr ":product 可能被删除,不能添加进购物车"
+
+#~ msgid "create Fund shopuser can't be null"
+#~ msgstr "创建资金流程用户不能为空"
+
+#~ msgid "can't support fund type: :fund_type"
+#~ msgstr "不支持的交易类型"
+
+#~ msgid "insert shopfund data wrong"
+#~ msgstr "插入待付款记录失败"
+
+#~ msgid "level_money can't be <0"
+#~ msgstr "升级金额不能小于等于0"
+
+#~ msgid "level :level money > :money"
+#~ msgstr "代理等级 :level 的金额必须大于 :money"
+
+#~ msgid "level :level money < :money"
+#~ msgstr "代理等级 :level 的金额必须小于 :money"
+
+#~ msgid "shop level :level is exites"
+#~ msgstr "代理等级 :level 已经存在"
+
+#~ msgid "proxy request level wrong"
+#~ msgstr "请求等级错误"
+
+#~ msgid "create Receivable shopuser can't be null"
+#~ msgstr "创建资金流程用户不能为空"
+
+#~ msgid "can't support receivable type: :receivable_type"
+#~ msgstr "不支持的交易类型"
+
+#~ msgid "change Receivable data wrong"
+#~ msgstr "更改收款记录失败"
+
+#~ msgid "insert receivable data wrong"
+#~ msgstr ""
+#~ "插入待付款记录失败\n"
+#~ " \t        return false;"
+
+#~ msgid "recharge can't be null"
+#~ msgstr "不能通过空订单创建充值记录"
+
+#~ msgid "order is pay,can't create recharge."
+#~ msgstr "不能通过已付费的订单创建充值记录"
+
+#~ msgid "order pay is timeout."
+#~ msgstr "订单支付已超时,请重新下单"
+
+#~ msgid "exites sharge record in the order,plase check data."
+#~ msgstr "存在订单充值记录且该充值已支付,请联系管理员检查数据"
+
+#~ msgid "can't create recharge,insert record fail."
+#~ msgstr "创建充值记录失败"
+
+#~ msgid "order pre is pay,can't create recharge."
+#~ msgstr "订单尾款已付"
+
+#~ msgid "order before not pay,can't create recharge."
+#~ msgstr "订单定金未支付,不能付尾款"
+
+#~ msgid "rechargeCreateFromUser:shopuser can't be null"
+#~ msgstr "不能通过空订单创建充值记录"
+
+#~ msgid "recharge money is wrong."
+#~ msgstr "不能通过已付费的订单创建充值记录"
+
+#~ msgid "wrong pay sn."
+#~ msgstr "错误的充值号"
+
+#~ msgid "can't find this pay sn"
+#~ msgstr "不能找到对应的充值记录"
+
+#~ msgid "recharge confirm: recharge can't be null!"
+#~ msgstr "充值确认: 充值记录不能为空"
+
+#~ msgid "rechargeConfirm:can't find shop user row."
+#~ msgstr "充值确认:无法获取用户与商店关系记录"
+
+#~ msgid "rechargeConfirm:can't change recharge record."
+#~ msgstr "更改充值记录失败,无法完成充值回调"
+
+#~ msgid "Recharge Confirm: :sn"
+#~ msgstr "充值 :sn"
+
+#~ msgid "Goods:\n"
+#~ msgstr "商品:\n"
+
+#~ msgid "Buy:"
+#~ msgstr "购买:"
+
+#~ msgid "[:shop] recharge"
+#~ msgstr "[:shop] 充值"
+
+#~ msgid "SN::sn Time::time"
+#~ msgstr "充值号::sn 时间::time"
+
+#~ msgid "miss data"
+#~ msgstr "创建退款对象缺少必要参数"
+
+#~ msgid "can't create shop refund row,insert record fail."
+#~ msgstr "无法创建商户退款数据,创建记录失败."
+
+#~ msgid "can't find this refund sn ::sn"
+#~ msgstr "无法查询到当前退款数据SN:sn"
+
+#~ msgid "id shop can't be null"
+#~ msgstr "店铺不能为空"
+
+#~ msgid "modify :id_user money [:money] fail in shop :id_shop"
+#~ msgstr "更改店铺[:id_shop]中的账户 :id_user 资金[:money]失败"
+
+#~ msgid "shopuser can't be null"
+#~ msgstr "shopuser model 不能为空"
+
+#~ msgid "pay password length wrong."
+#~ msgstr "支付密码不能小于6位"
+
+#~ msgid "pay type not support :pay_type"
+#~ msgstr "不支持的提取类型:pay_type"
+
+#~ msgid "pay type config wrong :pay_type"
+#~ msgstr "提款配置错误:pay_type"
+
+#~ msgid "can't find shop user"
+#~ msgstr "提交数据错误"
+
+#~ msgid "withdraw account is wrong"
+#~ msgstr "提款账号未激活"
+
+#~ msgid "withdraw money is wrong."
+#~ msgstr "提取金额错误"
+
+#~ msgid "This account allows you to withdraw up :money from the shop."
+#~ msgstr "你的账号最多提取 :money 在此店铺"
+
+#~ msgid "withdraw wrong"
+#~ msgstr "提款失败"
+
+#~ msgid "API WRONG:"
+#~ msgstr "接口错误:"
+
+#~ msgid "withdraw wrong 1"
+#~ msgstr "退款失败"
+
+#~ msgid "all is pay"
+#~ msgstr "无需要支付的订单"
+
+#~ msgid "not find pay"
+#~ msgstr "无需要支付的订单"
+
+#~ msgid "inser data wrong"
+#~ msgstr "插入数据错误"
+
+#~ msgid "account is wrong"
+#~ msgstr "账户错误"
+
+#~ msgid "bank no. is wrong"
+#~ msgstr "银行卡错误"
+
+#~ msgid "bank not support"
+#~ msgstr "不支持此银行"
+
+#~ msgid "bank address  is wrong"
+#~ msgstr "开户行地址错误"
+
+#~ msgid "need user account data"
+#~ msgstr "需要一些用户的基本信息"
+
+#~ msgid "account already exists."
+#~ msgstr "账户已经存在."
+
+#~ msgid "insert user data fail"
+#~ msgstr "插入用户数据失败"
+
+#~ msgid "province can't be null"
+#~ msgstr "省份不能为空."
+
+#~ msgid "contact can't be null"
+#~ msgstr "联系人不能为空."
+
+#~ msgid "tel can't be null"
+#~ msgstr "电话号不能为空."
+
+#~ msgid "find user_bind bind_type can't be null"
+#~ msgstr "用户绑定的bind_type不能为空."
+
+#~ msgid "your disable bind login,plase login enable bind login."
+#~ msgstr "你禁用了外部登陆，请先登陆账户启用"
+
+#~ msgid "insert user bind data fail"
+#~ msgstr "插入用户绑定数据失败"
+
+#~ msgid "input not be mail"
+#~ msgstr "邮箱格式错误"
+
+#~ msgid "input not be mobile"
+#~ msgstr "手机号格式错误"
+
+#~ msgid "code timeout"
+#~ msgstr "验证码超时"
+
+#~ msgid "create login history id_user can't be null"
+#~ msgstr "创建用户登录记录用户为空.创建失败."
+
+#~ msgid "For the first time to push the material message already exists, please return to modify."
+#~ msgstr "首次关注推送素材消息已经存在,请返回进行修改."
+
+#~ msgid "argements error"
+#~ msgstr "参数错误"
+
+#~ msgid "mdl init error!"
+#~ msgstr "模型初始化错误."
+
+#~ msgid "kf account can't be null"
+#~ msgstr "客服账号不能为空."
+
+#~ msgid "kf nick can't be null"
+#~ msgstr "客服昵称不能为空."
+
+#~ msgid "kf id can't be null"
+#~ msgstr "客服编号不能为空."
+
+#~ msgid "kf wechat can't be null"
+#~ msgstr "客服微信号不能为空."
+
+#~ msgid "wechat service already exists."
+#~ msgstr "客服已经存在"
+
+#~ msgid "no add submit subject"
+#~ msgstr "没有添加任何课程"
+
+#~ msgid "add children"
+#~ msgstr "添加孩子"
+
+#~ msgid "password_confirm"
+#~ msgstr "确认密码"
+
+#~ msgid "message is empty"
+#~ msgstr "内容为空"
+
+#~ msgid "order is empty"
+#~ msgstr "订单为空"
+
+#~ msgid "order status finish——1"
+#~ msgstr "订单完结"
+
+#~ msgid "all refund"
+#~ msgstr "全部退款"
+
+#~ msgid "order status finish11233345"
+#~ msgstr "订单完结"
+
+#~ msgid "order status finish--1"
+#~ msgstr "订单完结"
+
+#~ msgid "product not null"
+#~ msgstr "商品为空!"
+
+#~ msgid "Cell phone number already exists"
+#~ msgstr "电话号码已经存在"
+
+#~ msgid "withdraw type bank"
+#~ msgstr "银行"
+
+#~ msgid "order shipping part"
+#~ msgstr "支付部分物流费"
+
+#~ msgid "export"
+#~ msgstr "导出"
+
+#~ msgid "out link"
+#~ msgstr "外部链接"
+
+#~ msgid "move manager"
+#~ msgstr "WAP管理"
+
+#~ msgid "shop count"
+#~ msgstr "商户数量"
+
+#~ msgid "the order can‘t be refund."
+#~ msgstr "此订单不支持退款"
+
+#~ msgid "product money is 0,can't refund."
+#~ msgstr "商品金额为0不能申请退款"
+
+#~ msgid "fight is start,fight num can't <= :order_count"
+#~ msgstr "拼团已经开始，添加规则数量不能少于 :order_count"
+
+#~ msgid "refund FUND_PRE_SELL"
+#~ msgstr "预付款"
+
+#~ msgid "product pre price wrong"
+#~ msgstr "预购商品价格错误"
+
+#~ msgid "product after price wrong"
+#~ msgstr "预购商品尾款价格错误"
+
+#~ msgid "proxy order :sn money"
+#~ msgstr "代理收益，订单 :sn"
+
+#~ msgid "recharge"
+#~ msgstr "充值"
+
+#~ msgid "buy product"
+#~ msgstr "购买商品"
+
+#~ msgid "sell product"
+#~ msgstr "销售商品"
+
+#~ msgid "withdraw"
+#~ msgstr "提现"
+
+#~ msgid "refund"
+#~ msgstr "退款"
+
+#~ msgid "order title"
+#~ msgstr "订单名称"
+
+#~ msgid "distribution manager"
+#~ msgstr "分销管理"
+
+#~ msgid "ratio price"
+#~ msgstr "渠道比率价"
+
+#~ msgid "create order addr fail"
+#~ msgstr "创建订单收货地址失败"
+
+#~ msgid "payment fail,system busy."
+#~ msgstr "系统繁忙"
+
+#~ msgid "ratio limit"
+#~ msgstr "分成比例超100%"
+
+#~ msgid "product seckill manager"
+#~ msgstr "商品秒杀管理"
+
+#~ msgid "commision money"
+#~ msgstr "佣金"
+
+#~ msgid "order ok"
+#~ msgstr "订单正常"
+
+#~ msgid "pay status part"
+#~ msgstr "已付部分"
+
+#~ msgid "product OR rule data is not init"
+#~ msgstr "产品数据和规则数据没有进行初始化"
+
+#~ msgid "Rule configuration error"
+#~ msgstr "规则配置错误"
+
+#~ msgid "Product Distribution Update Faile,:ID"
+#~ msgstr "商品分销更新失败:ID"
+
+#~ msgid "Product Distribution Insert Failed,:sql"
+#~ msgstr "商品分销数据插入失败:sql"
+
+#~ msgid "Product Proxy Insert Failed,:sql"
+#~ msgstr "商品代理数据插入失败:sql"
+
+#~ msgid "Update Product is distribution failed,:id"
+#~ msgstr "更新商品分销规则失败:id"
+
+#~ msgid "Pre product OR rule data is not init"
+#~ msgstr "预购产品数据没有进行初始化"
+
+#~ msgid "Under the current rules there is still under the rules, can not be repeated to add"
+#~ msgstr "当前拼团规则下还有正在进行中的,不能重复添加"
+
+#~ msgid "fight name cannot be empty!"
+#~ msgstr "拼团名称不能为空!"
+
+#~ msgid "fight start and end time is not accurate, please check."
+#~ msgstr "预购开始和结束时间不准确,请检查."
+
+#~ msgid "product fight rule is exsited"
+#~ msgstr "商品拼团规则已经存在"
+
+#~ msgid "groupon name cannot be empty!"
+#~ msgstr "团购名称不能为空!"
+
+#~ msgid "groupon start and end time is not accurate, please check."
+#~ msgstr "团购开始和结束时间不对,请返回检查"
+
+#~ msgid "groupon product OR rule data is not init"
+#~ msgstr "团购商品或者规则未进行初始化."
+
+#~ msgid "product groupon rule is exsited"
+#~ msgstr "商品团购信息已经存在."
+
+#~ msgid "Pre order name cannot be empty!"
+#~ msgstr "预购商品名称不能为空!"
+
+#~ msgid "Pre start and end time is not accurate, please check."
+#~ msgstr "预购开始和结束时间不准确,请检查."
+
+#~ msgid "Pre delivery time is less than the end time or less than the current time"
+#~ msgstr "预购发货时间少于结束时间或者小于当前时间,不正确."
+
+#~ msgid "The pre final payment start and end time format error:atime-:etime"
+#~ msgstr "预购最后支付开始时间和结束时间格式错误:atime-:etime"
+
+#~ msgid "Pre name already exist can not be repeated"
+#~ msgstr "预购名称已经存在,不能重复。"
+
+#~ msgid "seckill name cannot be empty!"
+#~ msgstr "秒杀名称不能为空!"
+
+#~ msgid "seckill start and end time is not accurate, please check."
+#~ msgstr "秒杀开始和结束时间格式错误,请返回检查"
+
+#~ msgid "seckill product OR rule data is not init"
+#~ msgstr "秒杀商品或规则初始化错误."
+
+#~ msgid "Product Seckill Update error,:ID"
+#~ msgstr "商品秒杀数据更新错误:ID"
+
+#~ msgid "Insert Product Seckill error,:data"
+#~ msgstr "插入商品秒杀数据错误:data"
+
+#~ msgid "seckill rule configuration error"
+#~ msgstr "秒杀规则配置错误"
+
+#~ msgid "seckill insert error:sql"
+#~ msgstr "秒杀插入数据错误:sql"
+
+#~ msgid "wrong recharge data."
+#~ msgstr "充值数据错误"
+
+#~ msgid "pay time"
+#~ msgstr "支付时间"
+
+#~ msgid "product sn"
+#~ msgstr "商品编码"
+
+#~ msgid "reject note"
+#~ msgstr "驳回信息"
+
+#~ msgid "operate"
+#~ msgstr "操作"
+
+#~ msgid "Save failed"
+#~ msgstr "保存失败"
+
+#~ msgid "Have no right to operate"
+#~ msgstr "操作不正确"
+
+#~ msgid "wechat message manager"
+#~ msgstr "微信消息管理"
+
+#~ msgid "addtime"
+#~ msgstr "新增时间"
+
+#~ msgid "wechat message modify"
+#~ msgstr "微信消息编辑"
+
+#~ msgid "wechat message title"
+#~ msgstr "消息标题"
+
+#~ msgid "message repeat"
+#~ msgstr "消息回复"
+
+#~ msgid "order init"
+#~ msgstr "订单开始"
+
+#~ msgid "order finish"
+#~ msgstr "订单初步完结"
+
+#~ msgid "order disable"
+#~ msgstr "订单失效"
+
+#~ msgid "not paid"
+#~ msgstr "未支付"
+
+#~ msgid "paid"
+#~ msgstr "已支付"
+
+#~ msgid "null order,can't get pay type"
+#~ msgstr "该订单不存在支付类型。"
+
+#~ msgid "Product Groupon miss shop,Can't edit."
+#~ msgstr "商户丢失,团购信息不能编辑"
+
+#~ msgid "product model can't null."
+#~ msgstr "商品模型不能为null"
+
+#~ msgid "rule model can't null."
+#~ msgstr "规则模型不能为null"
+
+#~ msgid "rule start and end time is null"
+#~ msgstr "规则开始和结束时间不能为null"
+
+#~ msgid "distribution"
+#~ msgstr "分销"
+
+#~ msgid "user order"
+#~ msgstr "用户订单"
+
+#~ msgid "QQ"
+#~ msgstr "qq"
+
+#~ msgid "have synchronous"
+#~ msgstr "已同步"
+
+#~ msgid "product des"
+#~ msgstr "商品描述"
+
+#~ msgid "this shop refund is pay"
+#~ msgstr "返退失败"
+
+#~ msgid "pay interface err:"
+#~ msgstr "支付接口错误"
+
+#~ msgid "sell order :sn"
+#~ msgstr "支付订单 :sn"
+
+#~ msgid "add wechat"
+#~ msgstr "绑定公众号"
+
+#~ msgid "login need captcha!"
+#~ msgstr "登陆需要填写验证码！"
+
+#~ msgid "Please fill in the correct cell phone!"
+#~ msgstr "手机验证"
+
+#~ msgid "SMS code error!"
+#~ msgstr "短信验证"
+
+#~ msgid "Email address format is not correct!"
+#~ msgstr "邮箱验证"
+
+#~ msgid "Account is not null!"
+#~ msgstr "用户名不为空"
+
+#~ msgid "buy"
+#~ msgstr "购买商品"
+
+#~ msgid "sell"
+#~ msgstr "卖出商品"
+
+#~ msgid "commision"
+#~ msgstr "佣金"
+
+#~ msgid "To reply"
+#~ msgstr "待回复"
+
+#~ msgid "offline"
+#~ msgstr "离线"
+
+#~ msgid "to be released"
+#~ msgstr "待发布"
+
+#~ msgid "sms body is not support"
+#~ msgstr "短信模板不支持"
+
+#~ msgid "useCode:change order - order_status fail."
+#~ msgstr "更改订单消费码状态失败"
+
+#~ msgid "orderRefundConfirm:refund is null."
+#~ msgstr "提交退款无效"
+
+#~ msgid "order or OrderShipping is wrong"
+#~ msgstr "订单或发货数据错误"
+
+#~ msgid "order or OrderShipping not match"
+#~ msgstr "订单与发货数据不匹配"
+
+#~ msgid "orderShippingConfirm:change order status fail."
+#~ msgstr "更改订单收货状态失败"
+
+#~ msgid "order no money refund."
+#~ msgstr "订单无剩余金额可进行退款"
+
+#~ msgid "request refund fail,update order error."
+#~ msgstr "退款申请失败:更新订单错误"
+
+#~ msgid "can't create sell record."
+#~ msgstr "商家收款记录创建失败"
+
+#~ msgid "order may be lost,sell fial."
+#~ msgstr "订单丢失,商家收款失败"
+
+#~ msgid "order is empty,can't be pay."
+#~ msgstr "空订单不能支付"
+
+#~ msgid "pay order :sn"
+#~ msgstr "支付订单 :sn"
+
+#~ msgid "can't create user pay record."
+#~ msgstr "用户交易记录创建失败"
+
+#~ msgid "order may be lost,can't be pay."
+#~ msgstr "订单丢失,无法完成支付"
+
+#~ msgid "The order was paid"
+#~ msgstr "订单已支付"
+
+#~ msgid "pending"
+#~ msgstr "待处理"
+
+#~ msgid "save all"
+#~ msgstr "保存全部"
+
+#~ msgid "article center"
+#~ msgstr "文章中心"
+
+#~ msgid "service center"
+#~ msgstr "在线服务"
+
+#~ msgid "Respond to failure!"
+#~ msgstr "回答失败"
+
+#~ msgid "Reply to success!"
+#~ msgstr "回答成功"
+
+#~ msgid "refund finish"
+#~ msgstr "退款完成"
+
+#~ msgid "order ispay"
+#~ msgstr "订单已支付"
+
+#~ msgid "end of virtual goods"
+#~ msgstr "虚拟物品完结"
+
+#~ msgid "sign finish"
+#~ msgstr "邮寄物品完成签收"
+
+#~ msgid "order over"
+#~ msgstr "订单完结"
+
+#~ msgid "already sign"
+#~ msgstr "已发货"
+
+#~ msgid "default"
+#~ msgstr "默认"
+
+#~ msgid "order refund over."
+#~ msgstr "订单已完全退款"
+
+#~ msgid "code use:change code record status fail."
+#~ msgstr "更改订单收货状态失败"
+
+#~ msgid "cart is exites"
+#~ msgstr "购物车不存在"
+
+#~ msgid "Recharge Confirm: sn"
+#~ msgstr "充值 :sn"
+
+#~ msgid "Answer the questions"
+#~ msgstr "回答问题"
+
+#~ msgid "user profile"
+#~ msgstr "用户资料"
+
+#~ msgid "message center"
+#~ msgstr "消息中心"
+
+#~ msgid "recharge not pay."
+#~ msgstr "充值未完成支付"
+
+#~ msgid "can't find recharge data!"
+#~ msgstr "找不到充值数据 "
+
+#~ msgid "account or password is error!"
+#~ msgstr "账号或者密码错误"
+
+#~ msgid "The form cannot be empty!"
+#~ msgstr "表格内容不能为空"
+
+#~ msgid "Online FAQ"
+#~ msgstr "在线答疑"
+
+#~ msgid "order need shipping"
+#~ msgstr "订单需要物流发货"
+
+#~ msgid "You don't have classes"
+#~ msgstr "你没有可以参加的课程"
+
+#~ msgid "create order fail"
+#~ msgstr "创建订单产品失败"
+
+#~ msgid "create order product fail"
+#~ msgstr "创建订单产品失败"
+
+#~ msgid "shop recharge is empty!"
+#~ msgstr "传入的ShopRechargesModel 是空model"
+
+#~ msgid "id order not match or is null"
+#~ msgstr "订单ID为空或订单和充值记录不匹配"
+
+#~ msgid "bbb :aa :bb"
+#~ msgstr "神经病 :aa :bb"
+
+#~ msgid "abbbb"
+#~ msgstr "fasdfas"
