@@ -275,7 +275,7 @@ abstract class Image{
 		$width  = round($width);
 		$height = round($height);
 
-		$this->_do_resize($width, $height);
+		$this->_doResize($width, $height);
 
 		return $this;
 	}
@@ -359,7 +359,7 @@ abstract class Image{
 			$height = $max_height;
 		}
 
-		$this->_do_crop($width, $height, $offset_x, $offset_y);
+		$this->_doCrop($width, $height, $offset_x, $offset_y);
 
 		return $this;
 	}
@@ -402,7 +402,7 @@ abstract class Image{
 			while($degrees < -180);
 		}
 
-		$this->_do_rotate($degrees);
+		$this->_doRotate($degrees);
 
 		return $this;
 	}
@@ -428,7 +428,7 @@ abstract class Image{
 			$direction = Image::VERTICAL;
 		}
 
-		$this->_do_flip($direction);
+		$this->_doFlip($direction);
 
 		return $this;
 	}
@@ -448,7 +448,7 @@ abstract class Image{
 		// The amount must be in the range of 1 to 100
 		$amount = min(max($amount, 1), 100);
 
-		$this->_do_sharpen($amount);
+		$this->_doSharpen($amount);
 
 		return $this;
 	}
@@ -487,7 +487,7 @@ abstract class Image{
 		// The opacity must be in the range of 0 to 100
 		$opacity = min(max($opacity, 0), 100);
 
-		$this->_do_reflection($height, $opacity, $fade_in);
+		$this->_doReflection($height, $opacity, $fade_in);
 
 		return $this;
 	}
@@ -547,7 +547,7 @@ abstract class Image{
 		// The opacity must be in the range of 1 to 100
 		$opacity = min(max($opacity, 1), 100);
 
-		$this->_do_watermark($watermark, $offset_x, $offset_y, $opacity);
+		$this->_doWatermark($watermark, $offset_x, $offset_y, $opacity);
 
 		return $this;
 	}
@@ -587,7 +587,7 @@ abstract class Image{
 		// The opacity must be in the range of 0 to 100
 		$opacity = min(max($opacity, 0), 100);
 
-		$this->_do_background($r, $g, $b, $opacity);
+		$this->_doBackground($r, $g, $b, $opacity);
 
 		return $this;
 	}
@@ -646,7 +646,7 @@ abstract class Image{
 		// The quality must be in the range of 1 to 100
 		$quality = min(max($quality, 1), 100);
 
-		return $this->_do_save($file, $quality);
+		return $this->_doSave($file, $quality);
 	}
 
 	/**
@@ -671,7 +671,7 @@ abstract class Image{
 			$type = image_type_to_extension($this->type, FALSE);
 		}
 
-		return $this->_do_render($type, $quality);
+		return $this->_doRender($type, $quality);
 	}
 	/**
 	 * Execute a resize.
@@ -688,7 +688,7 @@ abstract class Image{
 	 * @param   integer  new height
 	 * @return  void
 	 */
-	abstract protected function _do_resize($width, $height);
+	abstract protected function _doResize($width, $height);
 
 	/**
 	 * Execute a crop.
@@ -699,7 +699,7 @@ abstract class Image{
 	 * @param   integer  offset from the top
 	 * @return  void
 	 */
-	abstract protected function _do_crop($width, $height, $offset_x, $offset_y);
+	abstract protected function _doCrop($width, $height, $offset_x, $offset_y);
 
 	/**
 	 * Execute a rotation.
@@ -707,7 +707,7 @@ abstract class Image{
 	 * @param   integer  degrees to rotate
 	 * @return  void
 	 */
-	abstract protected function _do_rotate($degrees);
+	abstract protected function _doRotate($degrees);
 
 	/**
 	 * Execute a flip.
@@ -715,7 +715,7 @@ abstract class Image{
 	 * @param   integer  direction to flip
 	 * @return  void
 	 */
-	abstract protected function _do_flip($direction);
+	abstract protected function _doFlip($direction);
 
 	/**
 	 * Execute a sharpen.
@@ -723,7 +723,7 @@ abstract class Image{
 	 * @param   integer  amount to sharpen
 	 * @return  void
 	 */
-	abstract protected function _do_sharpen($amount);
+	abstract protected function _doSharpen($amount);
 
 	/**
 	 * Execute a reflection.
@@ -733,7 +733,7 @@ abstract class Image{
 	 * @param   boolean   TRUE to fade out, FALSE to fade in
 	 * @return  void
 	 */
-	abstract protected function _do_reflection($height, $opacity, $fade_in);
+	abstract protected function _doReflection($height, $opacity, $fade_in);
 
 	/**
 	 * Execute a watermarking.
@@ -744,7 +744,7 @@ abstract class Image{
 	 * @param   integer  opacity of watermark
 	 * @return  void 
 	*/
-	abstract protected function _do_watermark(Image $image, $offset_x, $offset_y, $opacity);
+	abstract protected function _doWatermark(Image $image, $offset_x, $offset_y, $opacity);
 	
 	
 	/**
@@ -756,7 +756,7 @@ abstract class Image{
 	 * @param   integer  opacity
 	 * @return void
 	 */
-	abstract protected function _do_background($r, $g, $b, $opacity);
+	abstract protected function _doBackground($r, $g, $b, $opacity);
 
 	/**
 	 * Execute a save.
@@ -765,7 +765,7 @@ abstract class Image{
 	 * @param   integer  quality
 	 * @return  boolean
 	 */
-	abstract protected function _do_save($file, $quality);
+	abstract protected function _doSave($file, $quality);
 
 	/**
 	 * Execute a render.
@@ -774,6 +774,6 @@ abstract class Image{
 	 * @param   integer   quality
 	 * @return  string
 	 */
-	abstract protected function _do_render($type, $quality);
+	abstract protected function _doRender($type, $quality);
 
 } // End Image

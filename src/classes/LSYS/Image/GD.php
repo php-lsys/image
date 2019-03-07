@@ -128,7 +128,7 @@ class GD extends Image {
 		}
 	}
 	public function clear(){
-		$this->_load_image();
+		$this->_loadImage();
 		imagefilledrectangle($this->_image,0,0,$this->width,$this->height,0xffffff);
 		imagecolorallocatealpha($this->_image,255,255,255,100);
 	}
@@ -137,7 +137,7 @@ class GD extends Image {
 	 *
 	 * @return  void
 	 */
-	protected function _load_image()
+	protected function _loadImage()
 	{
 		if ( ! is_resource($this->_image))
 		{
@@ -152,14 +152,14 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _do_resize($width, $height)
+	protected function _doResize($width, $height)
 	{
 		// Presize width and height
 		$pre_width = $this->width;
 		$pre_height = $this->height;
 	
 		// Loads image if not yet loaded
-		$this->_load_image();
+		$this->_loadImage();
 	
 		// Test if we can do a resize without resampling to speed up the final resize
 		if ($width > ($this->width / 2) AND $height > ($this->height / 2))
@@ -202,13 +202,13 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _do_crop($width, $height, $offset_x, $offset_y)
+	protected function _doCrop($width, $height, $offset_x, $offset_y)
 	{
 		// Create the temporary image to copy to
 		$image = $this->_create($width, $height);
 	
 		// Loads image if not yet loaded
-		$this->_load_image();
+		$this->_loadImage();
 	
 		// Execute the crop
 		if (imagecopyresampled($image, $this->_image, 0, 0, $offset_x, $offset_y, $width, $height, $width, $height))
@@ -223,7 +223,7 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _do_rotate($degrees)
+	protected function _doRotate($degrees)
 	{
 		if ( ! self::$_bundled)
 		{
@@ -231,7 +231,7 @@ class GD extends Image {
 		}
 	
 		// Loads image if not yet loaded
-		$this->_load_image();
+		$this->_loadImage();
 	
 		// Transparent black will be used as the background for the uncovered region
 		$transparent = imagecolorallocatealpha($this->_image, 0, 0, 0, 127);
@@ -258,13 +258,13 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _do_flip($direction)
+	protected function _doFlip($direction)
 	{
 		// Create the flipped image
 		$flipped = $this->_create($this->width, $this->height);
 	
 		// Loads image if not yet loaded
-		$this->_load_image();
+		$this->_loadImage();
 	
 		if ($direction === $this::HORIZONTAL)
 		{
@@ -292,7 +292,7 @@ class GD extends Image {
 			$this->height = imagesy($flipped);
 	}
 	
-	protected function _do_sharpen($amount)
+	protected function _doSharpen($amount)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -300,7 +300,7 @@ class GD extends Image {
 	}
 	
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Amount should be in the range of 18-10
 	$amount = round(abs(-18 + ($amount * 0.08)), 2);
@@ -322,7 +322,7 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _do_reflection($height, $opacity, $fade_in)
+	protected function _doReflection($height, $opacity, $fade_in)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -330,7 +330,7 @@ class GD extends Image {
 	}
 	
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Convert an opacity range of 0-100 to 127-0
 	$opacity = round(abs(($opacity * 127 / 100) - 127));
@@ -393,7 +393,7 @@ class GD extends Image {
 		$this->height = imagesy($reflection);
 	}
 	
-	protected function _do_watermark(Image $watermark, $offset_x, $offset_y, $opacity)
+	protected function _doWatermark(Image $watermark, $offset_x, $offset_y, $opacity)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -401,7 +401,7 @@ class GD extends Image {
 	}
 	
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Create the watermark image resource
 	$overlay = imagecreatefromstring($watermark->render());
@@ -435,10 +435,10 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _do_background($r, $g, $b, $opacity)
+	protected function _doBackground($r, $g, $b, $opacity)
 	{
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Convert an opacity range of 0-100 to 127-0
 		$opacity = round(abs(($opacity * 127 / 100) - 127));
@@ -464,16 +464,16 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _do_save($file, $quality)
+	protected function _doSave($file, $quality)
 	{
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Get the extension of the file
 	$extension = pathinfo($file, PATHINFO_EXTENSION);
 	
 		// Get the save function and IMAGETYPE
-		list($save, $type) = $this->_save_function($extension, $quality);
+		list($save, $type) = $this->_saveFunction($extension, $quality);
 	
 		// Save the image to a file
 		$status = isset($quality) ? $save($this->_image, $file, $quality) : $save($this->_image, $file);
@@ -488,13 +488,13 @@ class GD extends Image {
 	return TRUE;
 	}
 	
-	protected function _do_render($type, $quality)
+	protected function _doRender($type, $quality)
 	{
 	// Loads image if not yet loaded
-	$this->_load_image();
+	$this->_loadImage();
 	
 	// Get the save function and IMAGETYPE
-	list($save, $type) = $this->_save_function($type, $quality);
+	list($save, $type) = $this->_saveFunction($type, $quality);
 	
 	// Capture the output
 	ob_start();
@@ -521,7 +521,7 @@ class GD extends Image {
 		* @return  array    save function, IMAGETYPE_* constant
 		* @throws  Exception
 		*/
-		protected function _save_function($extension, & $quality)
+		protected function _saveFunction($extension, & $quality)
 		{
 		switch (strtolower($extension))
 		{
