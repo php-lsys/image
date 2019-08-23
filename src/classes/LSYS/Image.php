@@ -102,7 +102,7 @@ abstract class Image{
 
 		if (empty($file) OR empty($info))
 		{
-			throw new Exception(__('Not an image or invalid image: :file',array("file"=>$file)));
+			throw new Exception(__('Not an image or invalid image: :file',array(":file"=>$file)));
 		}
 
 		// Store the image information
@@ -629,7 +629,7 @@ abstract class Image{
 		{
 			if ( ! is_writable($file))
 			{
-				throw new Exception(__('File must be writable: :file',array("file"=>$file)));
+				throw new Exception(__('File must be writable: :file',array(":file"=>$file)));
 			}
 		}
 		else
@@ -639,7 +639,7 @@ abstract class Image{
 
 			if ( ! is_dir($directory) OR ! is_writable($directory))
 			{
-				throw new Exception(__('Directory must be writable:  :directory',array("directory"=>$directory)));
+				throw new Exception(__('Directory must be writable:  :directory',array(":directory"=>$directory)));
 			}
 		}
 

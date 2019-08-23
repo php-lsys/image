@@ -60,7 +60,7 @@ class GD extends Image {
 	
 		if ( ! version_compare($version, '2.0.1', '>='))
 		{
-			throw new Exception(__('self requires GD version :version or greater, you have 2.0.1',array("version"=>$version)));
+			throw new Exception(__('self requires GD version :version or greater, you have 2.0.1',array(":version"=>$version)));
 		}
 	
 		return self::$_checked = TRUE;
@@ -104,7 +104,7 @@ class GD extends Image {
 	
 		if ( ! isset($create) OR ! function_exists($create))
 		{
-			throw new Exception(__('Installed GD does not support :type images',array("type"=>image_type_to_extension($this->type, FALSE))));
+			throw new Exception(__('Installed GD does not support :type images',array(":type"=>image_type_to_extension($this->type, FALSE))));
 		}
 	
 		// Save function for future use
@@ -548,7 +548,7 @@ class GD extends Image {
 		$quality = 9;
 		break;
 		default:
-		throw new Exception(__('Installed GD does not support :ext images',array("ext"=>$extension)));
+		throw new Exception(__('Installed GD does not support :ext images',array(":ext"=>$extension)));
 		break;
 		}
 	
