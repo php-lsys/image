@@ -20,7 +20,7 @@ class GD extends Image {
 	 *
 	 * @return  boolean
 	 */
-	public static function check()
+	public static function check():bool
 	{
 		if ( ! function_exists('gd_info'))
 		{
@@ -78,7 +78,7 @@ class GD extends Image {
 	 * @return  void
 	 * @throws  Exception
 	 */
-	public function __construct($file)
+	public function __construct(string $file)
 	{
 		if ( ! self::$_checked)
 		{
@@ -152,7 +152,7 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _doResize($width, $height)
+	protected function _doResize(int $width,int $height)
 	{
 		// Presize width and height
 		$pre_width = $this->width;
@@ -202,7 +202,7 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _doCrop($width, $height, $offset_x, $offset_y)
+	protected function _doCrop(int $width, int $height, int $offset_x,int  $offset_y)
 	{
 		// Create the temporary image to copy to
 		$image = $this->_create($width, $height);
@@ -223,7 +223,7 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _doRotate($degrees)
+	protected function _doRotate(int $degrees)
 	{
 		if ( ! self::$_bundled)
 		{
@@ -258,7 +258,7 @@ class GD extends Image {
 		}
 	}
 	
-	protected function _doFlip($direction)
+	protected function _doFlip(int $direction)
 	{
 		// Create the flipped image
 		$flipped = $this->_create($this->width, $this->height);
@@ -292,7 +292,7 @@ class GD extends Image {
 			$this->height = imagesy($flipped);
 	}
 	
-	protected function _doSharpen($amount)
+	protected function _doSharpen(int $amount)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -322,7 +322,7 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _doReflection($height, $opacity, $fade_in)
+	protected function _doReflection(int $height, int $opacity,bool $fade_in)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -393,7 +393,7 @@ class GD extends Image {
 		$this->height = imagesy($reflection);
 	}
 	
-	protected function _doWatermark(Image $watermark, $offset_x, $offset_y, $opacity)
+	protected function _doWatermark(Image $watermark,int  $offset_x,int  $offset_y,int  $opacity)
 	{
 	if ( ! self::$_bundled)
 	{
@@ -435,7 +435,7 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _doBackground($r, $g, $b, $opacity)
+	protected function _doBackground(int $r,int  $g, int $b,int  $opacity)
 	{
 	// Loads image if not yet loaded
 	$this->_loadImage();
@@ -464,7 +464,7 @@ class GD extends Image {
 	}
 	}
 	
-	protected function _doSave($file, $quality)
+	protected function _doSave(string $file, int $quality):bool
 	{
 	// Loads image if not yet loaded
 	$this->_loadImage();
@@ -488,7 +488,7 @@ class GD extends Image {
 	return TRUE;
 	}
 	
-	protected function _doRender($type, $quality)
+	protected function _doRender(string $type, int $quality):string
 	{
 	// Loads image if not yet loaded
 	$this->_loadImage();

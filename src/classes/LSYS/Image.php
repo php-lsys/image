@@ -44,7 +44,7 @@ abstract class Image{
 	 * @return  Image
 	 * @uses    Image::$default_driver
 	 */
-	public static function factory($file, $driver = NULL)
+	public static function factory(string $file, $driver = NULL)
 	{
 		if ($driver === NULL)
 		{
@@ -86,7 +86,7 @@ abstract class Image{
 	 * @return  void
 	 * @throws  Exception
 	 */
-	public function __construct($file)
+	public function __construct(string $file)
 	{
 		try
 		{
@@ -162,7 +162,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_resize
 	 */
-	public function resize($width = NULL, $height = NULL, $master = NULL)
+	public function resize(int $width = NULL,int $height = NULL,int  $master = NULL)
 	{
 		if ($master==Image::TOP_REMOVE){
 			if ($this->width/$width>$this->height/$height){
@@ -297,7 +297,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_crop
 	 */
-	public function crop($width, $height, $offset_x = NULL, $offset_y = NULL)
+	public function crop(int $width, int $height, int $offset_x = NULL, int $offset_y = NULL)
 	{
 		if ($width > $this->width)
 		{
@@ -377,7 +377,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_rotate
 	 */
-	public function rotate($degrees)
+	public function rotate(int $degrees)
 	{
 		// Make the degrees an integer
 		$degrees = (int) $degrees;
@@ -420,7 +420,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_flip
 	 */
-	public function flip($direction)
+	public function flip(int $direction)
 	{
 		if ($direction !== Image::HORIZONTAL)
 		{
@@ -443,7 +443,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_sharpen
 	 */
-	public function sharpen($amount)
+	public function sharpen(int  $amount)
 	{
 		// The amount must be in the range of 1 to 100
 		$amount = min(max($amount, 1), 100);
@@ -476,7 +476,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_reflection
 	 */
-	public function reflection($height = NULL, $opacity = 100, $fade_in = FALSE)
+	public function reflection(int $height = NULL, int $opacity = 100, bool $fade_in = FALSE)
 	{
 		if ($height === NULL OR $height > $this->height)
 		{
@@ -510,7 +510,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_watermark
 	 */
-	public function watermark(Image $watermark, $offset_x = NULL, $offset_y = NULL, $opacity = 100)
+	public function watermark(Image $watermark,int  $offset_x = NULL,int  $offset_y = NULL, int $opacity = 100)
 	{
 		if ($offset_x === NULL)
 		{
@@ -567,7 +567,7 @@ abstract class Image{
 	 * @return  $this
 	 * @uses    Image::_do_background
 	 */
-	public function background($color, $opacity = 100)
+	public function background($color,int  $opacity = 100)
 	{
 		if ($color[0] === '#')
 		{
@@ -613,7 +613,7 @@ abstract class Image{
 	 * @uses    Image::_save
 	 * @throws  Exception
 	 */
-	public function save($file = NULL, $quality = 100)
+	public function save(?string $file = NULL, $quality = 100):bool
 	{
 		if ($file === NULL)
 		{
@@ -663,7 +663,7 @@ abstract class Image{
 	 * @return  string
 	 * @uses    Image::_do_render
 	 */
-	public function render($type = NULL, $quality = 100)
+	public function render(?string $type = NULL, $quality = 100):string
 	{
 		if ($type === NULL)
 		{
@@ -680,7 +680,7 @@ abstract class Image{
 	 * @param   integer  new height
 	 * @return  void
 	 */
-	abstract public function clear();
+	abstract public function clear():void;
 	/**
 	 * Execute a resize.
 	 *
@@ -688,7 +688,7 @@ abstract class Image{
 	 * @param   integer  new height
 	 * @return  void
 	 */
-	abstract protected function _doResize($width, $height);
+	abstract protected function _doResize(int $width,int  $height);
 
 	/**
 	 * Execute a crop.
@@ -699,7 +699,7 @@ abstract class Image{
 	 * @param   integer  offset from the top
 	 * @return  void
 	 */
-	abstract protected function _doCrop($width, $height, $offset_x, $offset_y);
+	abstract protected function _doCrop(int $width, int $height,int  $offset_x, int $offset_y);
 
 	/**
 	 * Execute a rotation.
@@ -707,7 +707,7 @@ abstract class Image{
 	 * @param   integer  degrees to rotate
 	 * @return  void
 	 */
-	abstract protected function _doRotate($degrees);
+	abstract protected function _doRotate(int $degrees);
 
 	/**
 	 * Execute a flip.
@@ -715,7 +715,7 @@ abstract class Image{
 	 * @param   integer  direction to flip
 	 * @return  void
 	 */
-	abstract protected function _doFlip($direction);
+	abstract protected function _doFlip(int $direction);
 
 	/**
 	 * Execute a sharpen.
@@ -723,7 +723,7 @@ abstract class Image{
 	 * @param   integer  amount to sharpen
 	 * @return  void
 	 */
-	abstract protected function _doSharpen($amount);
+	abstract protected function _doSharpen(int $amount);
 
 	/**
 	 * Execute a reflection.
@@ -733,7 +733,7 @@ abstract class Image{
 	 * @param   boolean   TRUE to fade out, FALSE to fade in
 	 * @return  void
 	 */
-	abstract protected function _doReflection($height, $opacity, $fade_in);
+	abstract protected function _doReflection(int $height,int  $opacity, bool $fade_in);
 
 	/**
 	 * Execute a watermarking.
@@ -744,7 +744,7 @@ abstract class Image{
 	 * @param   integer  opacity of watermark
 	 * @return  void 
 	*/
-	abstract protected function _doWatermark(Image $image, $offset_x, $offset_y, $opacity);
+	abstract protected function _doWatermark(Image $image, int $offset_x, int $offset_y,int  $opacity);
 	
 	
 	/**
@@ -756,7 +756,7 @@ abstract class Image{
 	 * @param   integer  opacity
 	 * @return void
 	 */
-	abstract protected function _doBackground($r, $g, $b, $opacity);
+	abstract protected function _doBackground(int $r, int $g, int $b,int  $opacity);
 
 	/**
 	 * Execute a save.
@@ -765,7 +765,7 @@ abstract class Image{
 	 * @param   integer  quality
 	 * @return  boolean
 	 */
-	abstract protected function _doSave($file, $quality);
+	abstract protected function _doSave(string $file,int $quality):bool;
 
 	/**
 	 * Execute a render.
@@ -774,6 +774,6 @@ abstract class Image{
 	 * @param   integer   quality
 	 * @return  string
 	 */
-	abstract protected function _doRender($type, $quality);
+	abstract protected function _doRender(string $type,int $quality):string;
 
 } // End Image
